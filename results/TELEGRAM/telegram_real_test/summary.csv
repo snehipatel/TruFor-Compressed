@@ -1,0 +1,11 @@
+name,score,status,reason,npz,vis
+6199532383086778639.jpg,0.11719341576099396,PRISTINE / AUTHENTIC,"score=0.1172, below threshold",results/TELEGRAM/telegram_real_test\6199532383086778639.npz,results/TELEGRAM/telegram_real_test\6199532383086778639_vis.png
+6199532383086778640.jpg,0.1329580694437027,PRISTINE / AUTHENTIC,"score=0.1330, below threshold",results/TELEGRAM/telegram_real_test\6199532383086778640.npz,results/TELEGRAM/telegram_real_test\6199532383086778640_vis.png
+6199532383086778647.jpg,0.15368883311748505,PRISTINE / AUTHENTIC,"score=0.1537, below threshold",results/TELEGRAM/telegram_real_test\6199532383086778647.npz,results/TELEGRAM/telegram_real_test\6199532383086778647_vis.png
+6199532383086778650.jpg,0.05966642126441002,PRISTINE / AUTHENTIC,"score=0.0597, below threshold",results/TELEGRAM/telegram_real_test\6199532383086778650.npz,results/TELEGRAM/telegram_real_test\6199532383086778650_vis.png
+6199532383086778665.jpg,0.09700426459312439,PRISTINE / AUTHENTIC,"score=0.0970, below threshold",results/TELEGRAM/telegram_real_test\6199532383086778665.npz,results/TELEGRAM/telegram_real_test\6199532383086778665_vis.png
+6199532383086778666.jpg,0.1673479825258255,PRISTINE / AUTHENTIC,"score=0.1673, below threshold",results/TELEGRAM/telegram_real_test\6199532383086778666.npz,results/TELEGRAM/telegram_real_test\6199532383086778666_vis.png
+6199532383086778668.jpg,0.26795515418052673,PRISTINE / AUTHENTIC,"score=0.2680, below threshold",results/TELEGRAM/telegram_real_test\6199532383086778668.npz,results/TELEGRAM/telegram_real_test\6199532383086778668_vis.png
+6199532383086778669.jpg,0.11743210256099701,PRISTINE / AUTHENTIC,"score=0.1174, below threshold",results/TELEGRAM/telegram_real_test\6199532383086778669.npz,results/TELEGRAM/telegram_real_test\6199532383086778669_vis.png
+6199532383086778671.jpg,0.4289330542087555,TAMPERED / FAKE,global_score=0.4289 >= 0.3,results/TELEGRAM/telegram_real_test\6199532383086778671.npz,results/TELEGRAM/telegram_real_test\6199532383086778671_vis.png
+6199532383086778673.jpg,0.14499521255493164,PRISTINE / AUTHENTIC,"score=0.1450, below threshold",results/TELEGRAM/telegram_real_test\6199532383086778673.npz,results/TELEGRAM/telegram_real_test\6199532383086778673_vis.png

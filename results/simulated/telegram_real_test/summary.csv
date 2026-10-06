@@ -1,0 +1,11 @@
+name,score,status,reason,npz,vis
+r0225b88bt.jpg,0.07424601167440414,PRISTINE / AUTHENTIC,"score=0.0742, below threshold",results/simulated/telegram_real_test\r0225b88bt.npz,results/simulated/telegram_real_test\r0225b88bt_vis.png
+r02a21f6ct.jpg,0.05223226174712181,PRISTINE / AUTHENTIC,"score=0.0522, below threshold",results/simulated/telegram_real_test\r02a21f6ct.npz,results/simulated/telegram_real_test\r02a21f6ct_vis.png
+r0341853dt.jpg,0.358122318983078,TAMPERED / FAKE,global_score=0.3581 >= 0.3,results/simulated/telegram_real_test\r0341853dt.npz,results/simulated/telegram_real_test\r0341853dt_vis.png
+r09f764ect.jpg,0.14974065124988556,PRISTINE / AUTHENTIC,"score=0.1497, below threshold",results/simulated/telegram_real_test\r09f764ect.npz,results/simulated/telegram_real_test\r09f764ect_vis.png
+r0a71c689t.jpg,0.09617108106613159,PRISTINE / AUTHENTIC,"score=0.0962, below threshold",results/simulated/telegram_real_test\r0a71c689t.npz,results/simulated/telegram_real_test\r0a71c689t_vis.png
+r0b76b82ft.jpg,0.07075801491737366,PRISTINE / AUTHENTIC,"score=0.0708, below threshold",results/simulated/telegram_real_test\r0b76b82ft.npz,results/simulated/telegram_real_test\r0b76b82ft_vis.png
+r0de97473t.jpg,0.046600162982940674,PRISTINE / AUTHENTIC,"score=0.0466, below threshold",results/simulated/telegram_real_test\r0de97473t.npz,results/simulated/telegram_real_test\r0de97473t_vis.png
+r0fef53bft.jpg,0.08021653443574905,PRISTINE / AUTHENTIC,"score=0.0802, below threshold",results/simulated/telegram_real_test\r0fef53bft.npz,results/simulated/telegram_real_test\r0fef53bft_vis.png
+r10a207det.jpg,0.09783956408500671,PRISTINE / AUTHENTIC,"score=0.0978, below threshold",results/simulated/telegram_real_test\r10a207det.npz,results/simulated/telegram_real_test\r10a207det_vis.png
+r1426cde6t.jpg,0.06334386020898819,PRISTINE / AUTHENTIC,"score=0.0633, below threshold",results/simulated/telegram_real_test\r1426cde6t.npz,results/simulated/telegram_real_test\r1426cde6t_vis.png

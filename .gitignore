@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archives and large bundles
+TruFor_weights.zip
+*.zip
+*.tar.gz
+
+# Datasets - Exclude large uncompressed camera raw images & generated compressed derivatives
+DATA/REAL/
+DATA/whatsapp_real_losslessly_compressed/
+DATA/whatsapp_real_test_losslessly_compressed/
+
+# Evaluation outputs, npz arrays, and generated heatmap visualizations (11+ GB)
+*.npz
+output/
+output_test/
+output_user/
+demo_results/
+user_results/
+
+# Keep CSV metrics in results while ignoring large image/npz artifacts
+results/**/*.png
+results/*.png
+
+# Simulator uploads and generated output caches
+SIMULATOR/uploads/*
+!SIMULATOR/uploads/.gitkeep
+SIMULATOR/output/*
+!SIMULATOR/output/.gitkeep
+!SIMULATOR/output/simulator_fidelity_benchmark.csv
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

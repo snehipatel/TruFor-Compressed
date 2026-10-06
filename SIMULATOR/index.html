@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Compression & Forensic Simulator</title>
+    <meta name="description" content="Upload an image and see how it looks after being shared on WhatsApp, Instagram, Facebook, and Telegram. Forensic analysis and compression simulation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- ====== HEADER ====== -->
+<header class="header">
+    <div class="header-left">
+        <div class="header-logo">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="4" ry="4"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+            </svg>
+        </div>
+        <div>
+            <div class="header-title">Platform Compression & Forensic Simulator</div>
+            <div class="header-subtitle">Same picture. Different reality.</div>
+        </div>
+    </div>
+    <nav class="header-nav">
+        <a href="#" class="nav-link active" onclick="event.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'});">Home</a>
+        <a href="#methodology" class="nav-link" onclick="event.preventDefault(); openMethodologyModal()">Methodology</a>
+        <a href="#about" class="nav-link" onclick="event.preventDefault(); openAboutModal()">About</a>
+        <button class="btn-run-simulation" onclick="onHeaderRunSimulation()">Run Simulation →</button>
+    </nav>
+</header>
+
+<div class="hero-bg-glow"></div>
+
+<!-- ====== HERO ====== -->
+<section class="hero">
+    <h1>Platform Compression & <span class="hero-purple">Forensic Simulator</span></h1>
+    <p class="hero-sub">Upload an image and see how it looks after being shared on different platforms.</p>
+    <div class="hero-tagline">Same picture. Different reality.</div>
+</section>
+
+<!-- ====== TABS ====== -->
+<div class="tabs-outer">
+    <div class="tabs-container">
+        <button class="tab-btn active" data-tab="interactive" onclick="switchTab('interactive')">
+            <svg class="tab-svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+            </svg>
+            Interactive Comparison & Inspector
+        </button>
+        <button class="tab-btn" data-tab="batch" onclick="switchTab('batch')">
+            <svg class="tab-svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+            </svg>
+            Batch Dataset Engine
+        </button>
+    </div>
+</div>
+
+<!-- ====== MAIN CONTENT ====== -->
+<main class="main-content">
+
+    <!-- ========== TAB 1: INTERACTIVE ========== -->
+    <div class="tab-panel active" id="panel-interactive">
+
+        <!-- Section 1: Upload & Platform Selection -->
+        <div class="section-card" id="upload-section">
+            <div class="upload-layout">
+                
+                <!-- LEFT: Upload Zone & Preview Row -->
+                <div class="upload-left-col">
+                    <div class="section-header">
+                        <div class="step-circle">1</div>
+                        <div>
+                            <div class="section-title">Upload your image</div>
+                            <div class="section-subtitle">Drag and drop an image or click to browse. Supported formats: JPG, JPEG, PNG, WEBP (Max 50 MB)</div>
+                        </div>
+                    </div>
+
+                    <div class="upload-boxes-row">
+                        <!-- Dashed Drop Zone -->
+                        <div class="drop-zone" id="dropZone">
+                            <svg class="cloud-icon" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+                                <line x1="12" y1="9" x2="12" y2="15.5"></line>
+                                <polyline points="9 12 12 9 15 12"></polyline>
+                            </svg>
+                            <div class="drop-text-primary">Drag & drop an image here</div>
+                            <div class="drop-text-sub">or click to browse</div>
+                            <input type="file" id="fileInput" accept=".jpg,.jpeg,.png,.webp,.bmp,.tif,.tiff">
+                        </div>
+
+                        <!-- Uploaded Preview Card -->
+                        <div class="file-preview-card visible" id="filePreview">
+                            <img class="file-thumb" id="fileThumb" src="/mountains.jpg" alt="mountains preview">
+                            <div class="file-details">
+                                <div class="file-name" id="fileName">mountains.jpg</div>
+                                <div class="file-meta" id="fileMeta">16.8 MB &nbsp;&nbsp; 4032 × 3024</div>
+                            </div>
+                            <button class="file-remove-btn" id="fileRemove" title="Remove" onclick="removeUploadedFile(event)">✕</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Platform Selection -->
+                <div class="upload-right-col">
+                    <div class="platform-heading">Select Platform</div>
+
+                    <div class="platform-grid">
+                        <!-- WhatsApp -->
+                        <div class="platform-card selected" data-platform="whatsapp" onclick="selectPlatform('whatsapp')">
+                            <div class="check-badge">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="p-icon whatsapp-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c4.54 0 8.24 3.7 8.24 8.24 0 2.2-.86 4.26-2.42 5.82a8.21 8.21 0 0 1-5.82 2.41c-1.45 0-2.87-.38-4.12-1.1l-.3-.18-3.07.8.82-2.99-.19-.31a8.16 8.16 0 0 1-1.26-4.45c0-4.54 3.7-8.24 8.24-8.24z"/>
+                                    <path transform="translate(0.06, -1.35)" d="M16.56 15.33c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.61.19 1.16.17 1.6.1.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z"/>
+                                </svg>
+                            </div>
+                            <div class="p-label">WhatsApp</div>
+                        </div>
+
+                        <!-- Instagram -->
+                        <div class="platform-card" data-platform="instagram" onclick="selectPlatform('instagram')">
+                            <div class="check-badge">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="p-icon instagram-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </div>
+                            <div class="p-label">Instagram</div>
+                        </div>
+
+                        <!-- Facebook -->
+                        <div class="platform-card" data-platform="facebook" onclick="selectPlatform('facebook')">
+                            <div class="check-badge">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="p-icon facebook-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                            </div>
+                            <div class="p-label">Facebook</div>
+                        </div>
+
+                        <!-- Telegram -->
+                        <div class="platform-card" data-platform="telegram" onclick="selectPlatform('telegram')">
+                            <div class="check-badge">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="p-icon telegram-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.832.942z"/>
+                                </svg>
+                            </div>
+                            <div class="p-label">Telegram</div>
+                        </div>
+                    </div>
+
+                    <!-- Quality Mode & Action Row -->
+                    <div class="quality-action-row">
+                        <div class="quality-group">
+                            <div class="quality-title">Quality Mode <span class="info-circle" title="Standard mode applies standard social network compression. HD mode preserves higher resolution and higher JPEG quality.">ⓘ</span></div>
+                            <div class="quality-controls">
+                                <button class="btn-quality-pill active" id="btnStandard" onclick="setQualityMode('standard')">Standard</button>
+                                <label class="radio-label">
+                                    <input type="radio" name="qualityRadio" id="radioHd" onchange="setQualityMode('hd')">
+                                    <span>HD (if available)</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <button class="btn-simulate-action" id="btnSimulate" onclick="runSimulation()">
+                            <span class="spinner" id="simSpinner"></span>
+                            <span id="btnSimulateText">Simulate for WhatsApp →</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 2: Comparison Results -->
+        <div class="section-card results-container visible" id="resultsSection">
+            <div class="results-top-bar">
+                <div class="results-title-area">
+                    <div class="step-circle">2</div>
+                    <div class="results-main-title" id="resultsTitle">Comparison Results (WhatsApp Simulation)</div>
+                    <div class="badge-complete">
+                        <span class="green-dot">●</span> Simulation Complete
+                    </div>
+                </div>
+                <div class="results-btn-group">
+                    <button class="btn-outline" onclick="openMethodologyModal()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+            <!-- 3 Image Columns -->
+            <div class="cards-3-grid">
+                
+                <!-- Card 1: Original Image -->
+                <div class="preview-box-card">
+                    <div class="preview-box-header">Original Image (Your Upload)</div>
+                    <div class="img-container">
+                        <img id="imgOriginal" src="/mountains.jpg" alt="Original">
+                        <button class="zoom-circle-btn" onclick="openZoomModal('imgOriginal', 'Original Image (Your Upload)')" title="Zoom Inspector">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="preview-meta-row">
+                        <div class="meta-col">
+                            <svg class="meta-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            </svg>
+                            <div>
+                                <div class="meta-lbl">Size</div>
+                                <div class="meta-val" id="statOrigSize">16.8 MB</div>
+                            </div>
+                        </div>
+                        <div class="meta-col">
+                            <svg class="meta-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                <polyline points="21 15 16 10 5 21"></polyline>
+                            </svg>
+                            <div>
+                                <div class="meta-lbl">Resolution</div>
+                                <div class="meta-val" id="statOrigRes">4032 × 3024</div>
+                            </div>
+                        </div>
+                        <div class="meta-col">
+                            <svg class="meta-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                            <div>
+                                <div class="meta-lbl">Format</div>
+                                <div class="meta-val" id="statOrigFormat">JPG</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Simulated Compressed Image -->
+                <div class="preview-box-card">
+                    <div class="preview-box-header" id="compressedCardTitle">Simulated WhatsApp Compressed Image</div>
+                    <div class="img-container">
+                        <img id="imgCompressed" src="/mountains.jpg" alt="Compressed">
+                        <button class="zoom-circle-btn" onclick="openZoomModal('imgCompressed', 'Simulated WhatsApp Compressed Image')" title="Zoom Inspector">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="preview-meta-row">
+                        <div class="meta-col">
+                            <svg class="meta-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            </svg>
+                            <div>
+                                <div class="meta-lbl">Estimated Size</div>
+                                <div class="meta-val" id="statCompSize">~ 3.1 MB</div>
+                            </div>
+                        </div>
+                        <div class="meta-col">
+                            <svg class="meta-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                <polyline points="21 15 16 10 5 21"></polyline>
+                            </svg>
+                            <div>
+                                <div class="meta-lbl">Resolution</div>
+                                <div class="meta-val" id="statCompRes">1280 × 960</div>
+                            </div>
+                        </div>
+                        <div class="meta-col">
+                            <svg class="meta-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                            <div>
+                                <div class="meta-lbl">Format</div>
+                                <div class="meta-val" id="statCompFormat">JPG (compressed)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Difference Map -->
+                <div class="preview-box-card">
+                    <div class="preview-box-header">Difference (Real vs Simulated)</div>
+                    <div class="img-container">
+                        <img id="imgDifference" src="" alt="Difference map">
+                        <button class="zoom-circle-btn" onclick="openZoomModal('imgDifference', 'Difference Map (High-Frequency Compression Heatmap)')" title="Zoom Inspector">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="diff-bar-container">
+                        <span class="diff-edge-text">Less Difference</span>
+                        <div class="inferno-gradient-bar"></div>
+                        <span class="diff-edge-text">More Difference</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Compression Statistics Bar -->
+            <div class="stats-bar-card">
+                <div class="stats-bar-title" id="statsBarTitle">Compression Statistics (WhatsApp - Standard)</div>
+                <div class="stats-six-cols">
+                    <div class="stat-cell">
+                        <div class="stat-cell-lbl">Original Size</div>
+                        <div class="stat-cell-val" id="sbOrigSize">16.8 MB</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-cell-lbl">Simulated Size</div>
+                        <div class="stat-cell-val" id="sbCompSize">~ 3.1 MB</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-cell-lbl">Compression Ratio</div>
+                        <div class="stat-cell-val" id="sbRatio">~ 0.18</div>
+                        <div class="stat-cell-sub" id="sbRatioPct">(= 82% reduction)</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-cell-lbl">Resolution Change</div>
+                        <div class="stat-cell-val" id="sbResChange">4032 × 3024 → 1280 × 960</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-cell-lbl">Estimated Size Reduction</div>
+                        <div class="stat-cell-val green-text" id="sbReduction">~ 13.7 MB</div>
+                        <div class="stat-cell-sub green-text" id="sbReductionPct">(82% smaller)</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-cell-lbl">Visual Difference</div>
+                        <div class="stat-cell-val amber-text" id="sbVisual">Moderate</div>
+                        <div class="stat-cell-sub" id="sbVisualDesc">(Some loss in sharpness and fine details)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Disclaimer Notice -->
+            <div class="disclaimer-alert">
+                <div class="info-blue-circle">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                    </svg>
+                </div>
+                <div>This is a simulated preview based on the average compression ratio observed in our research. The actual result may vary.</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ========== TAB 2: BATCH DATASET ENGINE ========== -->
+    <div class="tab-panel" id="panel-batch">
+        <div class="section-card">
+            <div class="section-header">
+                <div class="step-circle">1</div>
+                <div>
+                    <div class="section-title">Batch Dataset Generator</div>
+                    <div class="section-subtitle">Compress multiple images or an entire folder using a platform's compression pipeline. Generates a downloadable ZIP with forensic manifest.csv.</div>
+                </div>
+            </div>
+
+            <!-- Ingestion Mode Selector -->
+            <div class="batch-mode-selector">
+                <button type="button" class="batch-mode-btn active" id="btnModeUpload" onclick="setBatchMode('upload')">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    Upload From Your Computer / Phone (Any Device)
+                </button>
+                <button type="button" class="batch-mode-btn" id="btnModeServer" onclick="setBatchMode('server')">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                        <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                        <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                        <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                    </svg>
+                    Server Local Folder Path
+                </button>
+            </div>
+
+            <!-- MODE A: Direct Browser File / Folder Upload -->
+            <div id="batchUploadModeContainer">
+                <div class="batch-upload-box" id="batchUploadDropZone" onclick="document.getElementById('batchFilesInput').click()">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom:6px;">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    <div style="font-weight:700; color:var(--text-navy); font-size:15px;">Drag & drop multiple images or click to browse</div>
+                    <div style="color:var(--text-slate); font-size:13px; margin-top:3px;">Works from any computer or browser. Compressed images + manifest.csv are packaged into a ZIP.</div>
+
+                    <div class="batch-upload-btns" onclick="event.stopPropagation()">
+                        <button type="button" class="btn-batch-upload-action" onclick="document.getElementById('batchFilesInput').click()">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                            Choose Files
+                        </button>
+                        <button type="button" class="btn-batch-upload-action" onclick="document.getElementById('batchFolderInput').click()">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                            Choose Entire Folder
+                        </button>
+                    </div>
+
+                    <div id="batchFilesCountBadge" class="batch-files-badge" style="display:none;"></div>
+
+                    <input type="file" id="batchFilesInput" accept=".jpg,.jpeg,.png,.webp,.bmp,.tif,.tiff" multiple style="display:none;" onchange="handleBatchFilesSelect(event)">
+                    <input type="file" id="batchFolderInput" webkitdirectory directory multiple style="display:none;" onchange="handleBatchFolderSelect(event)">
+                </div>
+            </div>
+
+            <!-- MODE B: Server Local Directory Path -->
+            <div id="batchServerModeContainer" style="display:none;">
+                <div class="batch-form-grid">
+                    <div class="batch-field">
+                        <label>Server Input Folder Path</label>
+                        <input type="text" id="batchInput" placeholder="e.g., E:\DeepFake\TruFor-main\DATA\REAL">
+                    </div>
+                    <div class="batch-field">
+                        <label>Server Output Folder Path</label>
+                        <input type="text" id="batchOutput" placeholder="e.g., E:\DeepFake\TruFor-main\DATA\whatsapp_real">
+                    </div>
+                </div>
+            </div>
+
+            <div class="batch-bottom-row">
+                <div class="batch-field" style="flex:1;">
+                    <label>Target Platform</label>
+                    <select id="batchPlatform" class="batch-select">
+                        <option value="whatsapp">WhatsApp</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="telegram">Telegram</option>
+                    </select>
+                </div>
+                <div class="batch-field" style="flex:1;">
+                    <label>Quality Mode</label>
+                    <select id="batchQuality" class="batch-select">
+                        <option value="standard">Standard</option>
+                        <option value="hd">HD (High Definition)</option>
+                    </select>
+                </div>
+                <div style="display:flex; align-items:flex-end;">
+                    <button class="btn-simulate-action" id="btnBatchRun" onclick="runActiveBatchMode()" style="padding:10px 26px; height:42px;">
+                        <span class="spinner" id="batchSpinner"></span>
+                        <span id="batchBtnText">Generate Dataset →</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Batch Progress / Results -->
+            <div class="batch-results-area" id="batchResults" style="display:none; margin-top:24px;">
+                <div class="batch-summary-banner" id="batchSummary"></div>
+                <div id="batchZipDownloadArea" style="margin-bottom:16px; display:none;">
+                    <a id="btnDownloadBatchZip" href="#" class="btn-simulate-action" style="display:inline-flex; align-items:center; gap:8px; text-decoration:none; padding:10px 20px; font-size:14px; background:#16a34a;" download>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <span id="btnDownloadZipText">Download Compressed Dataset (.zip)</span>
+                    </a>
+                </div>
+                <div class="batch-table-container">
+                    <table class="batch-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Original File</th>
+                                <th>Simulated File</th>
+                                <th>Original Size</th>
+                                <th>Compressed Size</th>
+                                <th>Ratio</th>
+                                <th>Reduction</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="batchTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<!-- ====== ZOOM MODAL ====== -->
+<div class="modal-overlay" id="zoomModal" onclick="closeZoomModal(event)">
+    <div class="zoom-dialog" onclick="event.stopPropagation()">
+        <div class="modal-header">
+            <h3 id="zoomTitle">Image Inspector</h3>
+            <button class="modal-close" onclick="closeZoomModal()">✕</button>
+        </div>
+        <div class="zoom-body">
+            <img id="zoomImg" src="" alt="Zoomed view">
+        </div>
+    </div>
+</div>
+
+
+<!-- ====== METHODOLOGY MODAL ====== -->
+<div class="modal-overlay" id="methodologyModal" onclick="closeMethodologyModal(event)">
+    <div class="modal-dialog" onclick="event.stopPropagation()">
+        <div class="modal-header">
+            <div class="modal-header-titles">
+                <h3>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                    Forensic & Compression Methodology
+                </h3>
+                <div class="modal-header-sub">Empirical reverse-engineering & visual distortion analysis</div>
+            </div>
+            <button class="modal-close" onclick="closeMethodologyModal()">✕</button>
+        </div>
+        <div class="modal-content-area">
+            <div class="modal-section">
+                <div class="modal-sec-title">1. Empirical Transcoding Matrix</div>
+                <p style="color:#475569; margin-bottom:10px;">
+                    Unlike generic estimators, our simulation engine applies the exact discrete cosine transform (DCT) quantization tables, chroma subsampling, and codecs harvested directly from production social networks:
+                </p>
+                <div style="overflow-x:auto;">
+                    <table class="batch-table" style="font-size:12.5px; margin-bottom:12px;">
+                        <thead>
+                            <tr>
+                                <th>Platform</th>
+                                <th>Codec</th>
+                                <th>Max Dim</th>
+                                <th>Quantization / Quality</th>
+                                <th>Chroma</th>
+                                <th>EXIF</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>WhatsApp (Std)</strong></td>
+                                <td><span class="pill-tag pill-green">JPEG</span></td>
+                                <td>1600 px</td>
+                                <td>Adaptive DQT (Q ~78-85)</td>
+                                <td>4:2:0</td>
+                                <td>Stripped</td>
+                            </tr>
+                            <tr>
+                                <td><strong>WhatsApp (HD)</strong></td>
+                                <td><span class="pill-tag pill-green">JPEG</span></td>
+                                <td>2560 px</td>
+                                <td>HD Empirical DQT (Q ~90)</td>
+                                <td>4:2:0</td>
+                                <td>Stripped</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Instagram</strong></td>
+                                <td><span class="pill-tag pill-purple">WebP</span></td>
+                                <td>1440 px</td>
+                                <td>VP8 Method 4 (Q=65 Std / Q=80 HD)</td>
+                                <td>Native</td>
+                                <td>Stripped</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Facebook</strong></td>
+                                <td><span class="pill-tag pill-blue">JPEG</span></td>
+                                <td>1080 px</td>
+                                <td>Optimized Huffman DQT</td>
+                                <td>4:2:0</td>
+                                <td>Stripped</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Telegram</strong></td>
+                                <td><span class="pill-tag pill-blue">JPEG</span></td>
+                                <td>1280 px</td>
+                                <td>Empirical DQT (Q ~75-80)</td>
+                                <td>4:2:0</td>
+                                <td>Stripped</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <div class="modal-sec-title">2. Mobile Phone Camera Orientation Correction</div>
+                <p style="color:#475569;">
+                    Smartphone cameras (iPhone, Samsung, Pixel) record the raw CMOS sensor matrix in landscape orientation, appending an EXIF metadata tag (<code>Orientation = 6</code>) when captured vertically in portrait. When uploaded, the simulator executes <code>ImageOps.exif_transpose()</code> prior to downsampling, guaranteeing that both the original display and the simulated output remain in perfect upright spatial alignment.
+                </p>
+            </div>
+
+            <div class="modal-section">
+                <div class="modal-sec-title">3. Inferno Difference Heatmap Algorithm</div>
+                <p style="color:#475569;">
+                    Compression artifacts (such as high-frequency blocking, ringing, and color degradation) are often imperceptible to the human eye. We compute the per-pixel mean L1 color distance between the original and transcoded image:
+                </p>
+                <div class="formula-box">
+                    diff(x, y) = (|R_orig - R_comp| + |G_orig - G_comp| + |B_orig - B_comp|) / 3<br>
+                    boosted(x, y) = [ (diff / 255.0) ^ 0.65 ] × 255.0 × 2.8
+                </div>
+                <p style="color:#475569;">
+                    The boosted values are mapped through the 256-color <strong>Inferno colormap</strong> (Dark Violet → Indigo → Crimson → Orange → Bright Yellow), highlighting subtle DCT boundaries and edge artifacts.
+                </p>
+            </div>
+
+            <div class="modal-section">
+                <div class="modal-sec-title">4. Visual Distortion Scale</div>
+                <div class="modal-card-box" style="display:flex; flex-direction:column; gap:8px;">
+                    <div><span class="pill-tag pill-green">Minimal (&lt; 2.0)</span> Near-identical perceptual fidelity to the source image.</div>
+                    <div><span class="pill-tag pill-blue">Low (2.0 – 5.0)</span> Very minor attenuation of ultra-fine high-frequency textures.</div>
+                    <div><span class="pill-tag pill-orange">Moderate (5.0 – 12.0)</span> Noticeable softening around sharp contours and high-contrast edges.</div>
+                    <div><span class="pill-tag" style="background:#fee2e2; color:#dc2626;">High (&gt; 12.0)</span> Evident compression blocking, color quantization, or heavy downscaling.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ====== ABOUT MODAL ====== -->
+<div class="modal-overlay" id="aboutModal" onclick="closeAboutModal(event)">
+    <div class="modal-dialog" onclick="event.stopPropagation()">
+        <div class="modal-header">
+            <div class="modal-header-titles">
+                <h3>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                    </svg>
+                    About Platform Compression Simulator
+                </h3>
+                <div class="modal-header-sub">Same picture. Different reality.</div>
+            </div>
+            <button class="modal-close" onclick="closeAboutModal()">✕</button>
+        </div>
+        <div class="modal-content-area">
+            <div class="modal-section">
+                <div class="modal-sec-title">🎯 The Forensic Challenge</div>
+                <p style="color:#475569;">
+                    Modern deepfake detection models (including TruFor, Noiseprint++, and PRNU sensor extraction) achieve up to <strong>94.9% ROC-AUC</strong> on clean, uncompressed camera sensor images. However, when images are transmitted across social media networks, aggressive transcoding pipelines destroy high-frequency noise fingerprints, dropping model accuracy down to <strong>57%–81%</strong>.
+                </p>
+            </div>
+
+            <div class="modal-section">
+                <div class="modal-sec-title">⚡ What This Simulator Solves</div>
+                <div class="modal-card-box" style="display:flex; flex-direction:column; gap:10px;">
+                    <div>
+                        <strong>Real-Time Cross-Platform Simulation:</strong> Instantly visualize how any photo looks after being compressed by WhatsApp, Instagram, Facebook, or Telegram without uploading to live accounts.
+                    </div>
+                    <div>
+                        <strong>Forensic Difference Detection:</strong> Uses a non-linear amplified Inferno colormap to expose invisible compression noise, ringing artifacts, and downscaling alterations.
+                    </div>
+                    <div>
+                        <strong>Automated Batch Dataset Pipeline:</strong> Compress thousands of benchmark images automatically to generate realistic training datasets for robust, real-world deepfake detectors.
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <div class="modal-sec-title">🛠️ Technical Architecture</div>
+                <p style="color:#475569; margin-bottom:8px;">
+                    Engineered with zero-dependency vanilla technologies for speed, reliability, and precision:
+                </p>
+                <ul style="padding-left:20px; color:#475569; display:flex; flex-direction:column; gap:6px;">
+                    <li><strong>Backend Core:</strong> Python 3 Flask microservice, Pillow (PIL), NumPy array computation.</li>
+                    <li><strong>Transcoding Engines:</strong> Exact 64-element DCT DQT injection (WhatsApp, Facebook, Telegram) and native WebP VP8 compression (Instagram).</li>
+                    <li><strong>Smart Pre-processing:</strong> Automated EXIF rotation normalization and transparent PNG alpha-compositing.</li>
+                    <li><strong>Frontend UI:</strong> Pure HTML5, modern CSS3 (Apple/Vercel aesthetic), and vanilla ES6 JavaScript.</li>
+                </ul>
+            </div>
+
+            <div class="modal-section">
+                <div class="modal-sec-title">🔬 Research Reference</div>
+                <p style="color:#475569;">
+                    Developed as a companion research tool for the <strong>TruFor Image Forgery & Deepfake Evaluation</strong> study. Detailed evaluation findings and cross-platform degradation benchmarks are documented in <code style="background:#f1f5f9; padding:2px 6px; border-radius:4px;">TruFor_Evaluation_Report.txt</code>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+name,score,status,reason,npz,vis
+r0225b88bt.png,0.073807492852211,PRISTINE / AUTHENTIC,"score=0.0738, below threshold",results/REAL/real_test\r0225b88bt.npz,results/REAL/real_test\r0225b88bt_vis.png
+r02a21f6ct.png,0.014258773066103458,PRISTINE / AUTHENTIC,"score=0.0143, below threshold",results/REAL/real_test\r02a21f6ct.npz,results/REAL/real_test\r02a21f6ct_vis.png
+r0341853dt.png,0.03348563611507416,PRISTINE / AUTHENTIC,"score=0.0335, below threshold",results/REAL/real_test\r0341853dt.npz,results/REAL/real_test\r0341853dt_vis.png
+r09f764ect.png,0.0306084044277668,PRISTINE / AUTHENTIC,"score=0.0306, below threshold",results/REAL/real_test\r09f764ect.npz,results/REAL/real_test\r09f764ect_vis.png
+r0a71c689t.png,0.0444628931581974,PRISTINE / AUTHENTIC,"score=0.0445, below threshold",results/REAL/real_test\r0a71c689t.npz,results/REAL/real_test\r0a71c689t_vis.png
+r0b76b82ft.png,0.028485296294093132,PRISTINE / AUTHENTIC,"score=0.0285, below threshold",results/REAL/real_test\r0b76b82ft.npz,results/REAL/real_test\r0b76b82ft_vis.png
+r0de97473t.png,0.019415294751524925,PRISTINE / AUTHENTIC,"score=0.0194, below threshold",results/REAL/real_test\r0de97473t.npz,results/REAL/real_test\r0de97473t_vis.png
+r0fef53bft.png,0.028223266825079918,PRISTINE / AUTHENTIC,"score=0.0282, below threshold",results/REAL/real_test\r0fef53bft.npz,results/REAL/real_test\r0fef53bft_vis.png
+r10a207det.png,0.08225157111883163,PRISTINE / AUTHENTIC,"score=0.0823, below threshold",results/REAL/real_test\r10a207det.npz,results/REAL/real_test\r10a207det_vis.png
+r1426cde6t.png,0.027228614315390587,PRISTINE / AUTHENTIC,"score=0.0272, below threshold",results/REAL/real_test\r1426cde6t.npz,results/REAL/real_test\r1426cde6t_vis.png

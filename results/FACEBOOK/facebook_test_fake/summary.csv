@@ -1,0 +1,11 @@
+name,score,status,reason,npz,vis
+FB_IMG_1791008316565.jpg,0.7994738221168518,TAMPERED / FAKE,global_score=0.7995 >= 0.3,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008316565.npz,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008316565_vis.png
+FB_IMG_1791008319102.jpg,0.3498837649822235,TAMPERED / FAKE,global_score=0.3499 >= 0.3,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008319102.npz,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008319102_vis.png
+FB_IMG_1791008321417.jpg,0.9171702861785889,TAMPERED / FAKE,global_score=0.9172 >= 0.3,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008321417.npz,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008321417_vis.png
+FB_IMG_1791008323632.jpg,0.8001919388771057,TAMPERED / FAKE,global_score=0.8002 >= 0.3,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008323632.npz,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008323632_vis.png
+FB_IMG_1791008325942.jpg,0.9854395985603333,TAMPERED / FAKE,global_score=0.9854 >= 0.3,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008325942.npz,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008325942_vis.png
+FB_IMG_1791008329158.jpg,0.19569629430770874,PRISTINE / AUTHENTIC,"score=0.1957, below threshold",results/FACEBOOK/facebook_test_fake\FB_IMG_1791008329158.npz,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008329158_vis.png
+FB_IMG_1791008333689.jpg,0.36704984307289124,TAMPERED / FAKE,global_score=0.3670 >= 0.3,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008333689.npz,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008333689_vis.png
+FB_IMG_1791008336388.jpg,0.5565168261528015,TAMPERED / FAKE,global_score=0.5565 >= 0.3,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008336388.npz,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008336388_vis.png
+FB_IMG_1791008338875.jpg,0.47545140981674194,TAMPERED / FAKE,global_score=0.4755 >= 0.3,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008338875.npz,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008338875_vis.png
+FB_IMG_1791008341204.jpg,0.5129567980766296,TAMPERED / FAKE,global_score=0.5130 >= 0.3,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008341204.npz,results/FACEBOOK/facebook_test_fake\FB_IMG_1791008341204_vis.png

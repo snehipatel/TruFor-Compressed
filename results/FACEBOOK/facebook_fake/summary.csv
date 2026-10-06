@@ -1,0 +1,26 @@
+name,score,status,reason,npz,vis
+FB_IMG_1791008121100.jpg,0.6468382477760315,TAMPERED / FAKE,global_score=0.6468 >= 0.3,results/facebook_fake\FB_IMG_1791008121100.npz,results/facebook_fake\FB_IMG_1791008121100_vis.png
+FB_IMG_1791008122840.jpg,0.9746579527854919,TAMPERED / FAKE,global_score=0.9747 >= 0.3,results/facebook_fake\FB_IMG_1791008122840.npz,results/facebook_fake\FB_IMG_1791008122840_vis.png
+FB_IMG_1791008124772.jpg,0.8322277069091797,TAMPERED / FAKE,global_score=0.8322 >= 0.3,results/facebook_fake\FB_IMG_1791008124772.npz,results/facebook_fake\FB_IMG_1791008124772_vis.png
+FB_IMG_1791008126955.jpg,0.5771811604499817,TAMPERED / FAKE,global_score=0.5772 >= 0.3,results/facebook_fake\FB_IMG_1791008126955.npz,results/facebook_fake\FB_IMG_1791008126955_vis.png
+FB_IMG_1791008129105.jpg,0.772424042224884,TAMPERED / FAKE,global_score=0.7724 >= 0.3,results/facebook_fake\FB_IMG_1791008129105.npz,results/facebook_fake\FB_IMG_1791008129105_vis.png
+FB_IMG_1791008131354.jpg,0.5215469002723694,TAMPERED / FAKE,global_score=0.5215 >= 0.3,results/facebook_fake\FB_IMG_1791008131354.npz,results/facebook_fake\FB_IMG_1791008131354_vis.png
+FB_IMG_1791008135270.jpg,0.9053764343261719,TAMPERED / FAKE,global_score=0.9054 >= 0.3,results/facebook_fake\FB_IMG_1791008135270.npz,results/facebook_fake\FB_IMG_1791008135270_vis.png
+FB_IMG_1791008137818.jpg,0.36740899085998535,TAMPERED / FAKE,global_score=0.3674 >= 0.3,results/facebook_fake\FB_IMG_1791008137818.npz,results/facebook_fake\FB_IMG_1791008137818_vis.png
+FB_IMG_1791008140316.jpg,0.7968718409538269,TAMPERED / FAKE,global_score=0.7969 >= 0.3,results/facebook_fake\FB_IMG_1791008140316.npz,results/facebook_fake\FB_IMG_1791008140316_vis.png
+FB_IMG_1791008142599.jpg,0.9907469749450684,TAMPERED / FAKE,global_score=0.9907 >= 0.3,results/facebook_fake\FB_IMG_1791008142599.npz,results/facebook_fake\FB_IMG_1791008142599_vis.png
+FB_IMG_1791008144965.jpg,0.9094676971435547,TAMPERED / FAKE,global_score=0.9095 >= 0.3,results/facebook_fake\FB_IMG_1791008144965.npz,results/facebook_fake\FB_IMG_1791008144965_vis.png
+FB_IMG_1791008147182.jpg,0.9969764947891235,TAMPERED / FAKE,global_score=0.9970 >= 0.3,results/facebook_fake\FB_IMG_1791008147182.npz,results/facebook_fake\FB_IMG_1791008147182_vis.png
+FB_IMG_1791008149481.jpg,0.9905279874801636,TAMPERED / FAKE,global_score=0.9905 >= 0.3,results/facebook_fake\FB_IMG_1791008149481.npz,results/facebook_fake\FB_IMG_1791008149481_vis.png
+FB_IMG_1791008153695.jpg,0.7999675273895264,TAMPERED / FAKE,global_score=0.8000 >= 0.3,results/facebook_fake\FB_IMG_1791008153695.npz,results/facebook_fake\FB_IMG_1791008153695_vis.png
+FB_IMG_1791008156510.jpg,0.9728319048881531,TAMPERED / FAKE,global_score=0.9728 >= 0.3,results/facebook_fake\FB_IMG_1791008156510.npz,results/facebook_fake\FB_IMG_1791008156510_vis.png
+FB_IMG_1791008158976.jpg,0.7793346047401428,TAMPERED / FAKE,global_score=0.7793 >= 0.3,results/facebook_fake\FB_IMG_1791008158976.npz,results/facebook_fake\FB_IMG_1791008158976_vis.png
+FB_IMG_1791008161763.jpg,0.5318496823310852,TAMPERED / FAKE,global_score=0.5318 >= 0.3,results/facebook_fake\FB_IMG_1791008161763.npz,results/facebook_fake\FB_IMG_1791008161763_vis.png
+FB_IMG_1791008164258.jpg,0.3901433050632477,TAMPERED / FAKE,global_score=0.3901 >= 0.3,results/facebook_fake\FB_IMG_1791008164258.npz,results/facebook_fake\FB_IMG_1791008164258_vis.png
+FB_IMG_1791008166739.jpg,0.7962664365768433,TAMPERED / FAKE,global_score=0.7963 >= 0.3,results/facebook_fake\FB_IMG_1791008166739.npz,results/facebook_fake\FB_IMG_1791008166739_vis.png
+FB_IMG_1791008169188.jpg,0.2980528175830841,PRISTINE / AUTHENTIC,"score=0.2981, below threshold",results/facebook_fake\FB_IMG_1791008169188.npz,results/facebook_fake\FB_IMG_1791008169188_vis.png
+FB_IMG_1791008172706.jpg,0.24113956093788147,PRISTINE / AUTHENTIC,"score=0.2411, below threshold",results/facebook_fake\FB_IMG_1791008172706.npz,results/facebook_fake\FB_IMG_1791008172706_vis.png
+FB_IMG_1791008174635.jpg,0.5767716765403748,TAMPERED / FAKE,global_score=0.5768 >= 0.3,results/facebook_fake\FB_IMG_1791008174635.npz,results/facebook_fake\FB_IMG_1791008174635_vis.png
+FB_IMG_1791008177936.jpg,0.14061668515205383,PRISTINE / AUTHENTIC,"score=0.1406, below threshold",results/facebook_fake\FB_IMG_1791008177936.npz,results/facebook_fake\FB_IMG_1791008177936_vis.png
+FB_IMG_1791008182299.jpg,0.7520105838775635,TAMPERED / FAKE,global_score=0.7520 >= 0.3,results/facebook_fake\FB_IMG_1791008182299.npz,results/facebook_fake\FB_IMG_1791008182299_vis.png
+FB_IMG_1791008184700.jpg,0.9412855505943298,TAMPERED / FAKE,global_score=0.9413 >= 0.3,results/facebook_fake\FB_IMG_1791008184700.npz,results/facebook_fake\FB_IMG_1791008184700_vis.png

@@ -1,0 +1,11 @@
+name,score,status,reason,npz,vis
+FB_IMG_1791008600672.jpg,0.12957683205604553,PRISTINE / AUTHENTIC,"score=0.1296, below threshold",results/FACEBOOK/facebook_test_real\FB_IMG_1791008600672.npz,results/FACEBOOK/facebook_test_real\FB_IMG_1791008600672_vis.png
+FB_IMG_1791008603075.jpg,0.12609116733074188,PRISTINE / AUTHENTIC,"score=0.1261, below threshold",results/FACEBOOK/facebook_test_real\FB_IMG_1791008603075.npz,results/FACEBOOK/facebook_test_real\FB_IMG_1791008603075_vis.png
+FB_IMG_1791008606812.jpg,0.1670604646205902,PRISTINE / AUTHENTIC,"score=0.1671, below threshold",results/FACEBOOK/facebook_test_real\FB_IMG_1791008606812.npz,results/FACEBOOK/facebook_test_real\FB_IMG_1791008606812_vis.png
+FB_IMG_1791008611187.jpg,0.1422470360994339,PRISTINE / AUTHENTIC,"score=0.1422, below threshold",results/FACEBOOK/facebook_test_real\FB_IMG_1791008611187.npz,results/FACEBOOK/facebook_test_real\FB_IMG_1791008611187_vis.png
+FB_IMG_1791008614628.jpg,0.19378532469272614,PRISTINE / AUTHENTIC,"score=0.1938, below threshold",results/FACEBOOK/facebook_test_real\FB_IMG_1791008614628.npz,results/FACEBOOK/facebook_test_real\FB_IMG_1791008614628_vis.png
+FB_IMG_1791008617752.jpg,0.24184587597846985,PRISTINE / AUTHENTIC,"score=0.2418, below threshold",results/FACEBOOK/facebook_test_real\FB_IMG_1791008617752.npz,results/FACEBOOK/facebook_test_real\FB_IMG_1791008617752_vis.png
+FB_IMG_1791008619348.jpg,0.308703750371933,TAMPERED / FAKE,global_score=0.3087 >= 0.3,results/FACEBOOK/facebook_test_real\FB_IMG_1791008619348.npz,results/FACEBOOK/facebook_test_real\FB_IMG_1791008619348_vis.png
+FB_IMG_1791008621734.jpg,0.12955062091350555,PRISTINE / AUTHENTIC,"score=0.1296, below threshold",results/FACEBOOK/facebook_test_real\FB_IMG_1791008621734.npz,results/FACEBOOK/facebook_test_real\FB_IMG_1791008621734_vis.png
+FB_IMG_1791008623846.jpg,0.1941281408071518,PRISTINE / AUTHENTIC,"score=0.1941, below threshold",results/FACEBOOK/facebook_test_real\FB_IMG_1791008623846.npz,results/FACEBOOK/facebook_test_real\FB_IMG_1791008623846_vis.png
+FB_IMG_1791008627993.jpg,0.11641129106283188,PRISTINE / AUTHENTIC,"score=0.1164, below threshold",results/FACEBOOK/facebook_test_real\FB_IMG_1791008627993.npz,results/FACEBOOK/facebook_test_real\FB_IMG_1791008627993_vis.png

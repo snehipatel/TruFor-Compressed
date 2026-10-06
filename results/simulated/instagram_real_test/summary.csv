@@ -1,0 +1,11 @@
+name,score,status,reason,npz,vis
+r0225b88bt.webp,0.20461472868919373,PRISTINE / AUTHENTIC,"score=0.2046, below threshold",results/simulated/instagram_real_test\r0225b88bt.npz,results/simulated/instagram_real_test\r0225b88bt_vis.png
+r02a21f6ct.webp,0.39203348755836487,TAMPERED / FAKE,global_score=0.3920 >= 0.3,results/simulated/instagram_real_test\r02a21f6ct.npz,results/simulated/instagram_real_test\r02a21f6ct_vis.png
+r0341853dt.webp,0.44057610630989075,TAMPERED / FAKE,global_score=0.4406 >= 0.3,results/simulated/instagram_real_test\r0341853dt.npz,results/simulated/instagram_real_test\r0341853dt_vis.png
+r09f764ect.webp,0.11112269759178162,PRISTINE / AUTHENTIC,"score=0.1111, below threshold",results/simulated/instagram_real_test\r09f764ect.npz,results/simulated/instagram_real_test\r09f764ect_vis.png
+r0a71c689t.webp,0.1707746684551239,PRISTINE / AUTHENTIC,"score=0.1708, below threshold",results/simulated/instagram_real_test\r0a71c689t.npz,results/simulated/instagram_real_test\r0a71c689t_vis.png
+r0b76b82ft.webp,0.10399572551250458,PRISTINE / AUTHENTIC,"score=0.1040, below threshold",results/simulated/instagram_real_test\r0b76b82ft.npz,results/simulated/instagram_real_test\r0b76b82ft_vis.png
+r0de97473t.webp,0.11328652501106262,PRISTINE / AUTHENTIC,"score=0.1133, below threshold",results/simulated/instagram_real_test\r0de97473t.npz,results/simulated/instagram_real_test\r0de97473t_vis.png
+r0fef53bft.webp,0.06523258984088898,PRISTINE / AUTHENTIC,"score=0.0652, below threshold",results/simulated/instagram_real_test\r0fef53bft.npz,results/simulated/instagram_real_test\r0fef53bft_vis.png
+r10a207det.webp,0.16171404719352722,PRISTINE / AUTHENTIC,"score=0.1617, below threshold",results/simulated/instagram_real_test\r10a207det.npz,results/simulated/instagram_real_test\r10a207det_vis.png
+r1426cde6t.webp,0.26129642128944397,PRISTINE / AUTHENTIC,"score=0.2613, below threshold",results/simulated/instagram_real_test\r1426cde6t.npz,results/simulated/instagram_real_test\r1426cde6t_vis.png
