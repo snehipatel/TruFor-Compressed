@@ -59,7 +59,6 @@ TruFor_weights.zip
 DATA/REAL/
 DATA/whatsapp_real_losslessly_compressed/
 DATA/whatsapp_real_test_losslessly_compressed/
-CASIA2.0_Groundtruth/
 
 # Evaluation outputs, npz arrays, and generated heatmap visualizations (11+ GB)
 *.npz
