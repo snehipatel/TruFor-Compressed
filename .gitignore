@@ -55,10 +55,17 @@ TruFor_weights.zip
 *.zip
 *.tar.gz
 
+# Model weights >100MB (exclude from git, share via Releases / Drive)
+*.pth
+*.pth.tar
+study/checkpoints/*
+!study/checkpoints/.gitkeep
+
 # Datasets - Exclude large uncompressed camera raw images & generated compressed derivatives
 DATA/REAL/
 DATA/whatsapp_real_losslessly_compressed/
 DATA/whatsapp_real_test_losslessly_compressed/
+DATASET/
 
 # Evaluation outputs, npz arrays, and generated heatmap visualizations (11+ GB)
 *.npz
