@@ -1,0 +1,191 @@
+{
+  "whatsapp": {
+    "real": {
+      "WhatsApp Image 2026-09-15 at 7.29.47 PM (1).jpeg": {
+        "resolution": "1059x1600",
+        "format": "JPEG",
+        "size_kb": 189.5
+      },
+      "WhatsApp Image 2026-09-15 at 7.29.47 PM (10).jpeg": {
+        "resolution": "1059x1600",
+        "format": "JPEG",
+        "size_kb": 565.6
+      },
+      "WhatsApp Image 2026-09-15 at 7.29.47 PM (11).jpeg": {
+        "resolution": "1059x1600",
+        "format": "JPEG",
+        "size_kb": 536.9
+      },
+      "WhatsApp Image 2026-09-15 at 7.29.47 PM (12).jpeg": {
+        "resolution": "1600x1059",
+        "format": "JPEG",
+        "size_kb": 316.7
+      },
+      "WhatsApp Image 2026-09-15 at 7.29.47 PM (13).jpeg": {
+        "resolution": "1600x1059",
+        "format": "JPEG",
+        "size_kb": 352.3
+      }
+    },
+    "simulator": {
+      "1a07yi_orig.jpg": {
+        "resolution": "1200x1051",
+        "format": "JPEG",
+        "size_kb": 112.8
+      },
+      "c8swtoq_0.jpg": {
+        "resolution": "1600x900",
+        "format": "JPEG",
+        "size_kb": 56.4
+      }
+    }
+  },
+  "instagram": {
+    "real": {
+      "vanjarajuhi10_0037831d05494cc0a6aef4f79b8e2493.jpg": {
+        "resolution": "1440x1440",
+        "format": "WEBP",
+        "size_kb": 378.6
+      },
+      "vanjarajuhi10_06b724e051e74aac88ef379631e00ea2.jpg": {
+        "resolution": "1440x1440",
+        "format": "WEBP",
+        "size_kb": 106.0
+      },
+      "vanjarajuhi10_08e9db9ddd0f49f1b02f75300578bde3.jpg": {
+        "resolution": "1440x1440",
+        "format": "WEBP",
+        "size_kb": 205.6
+      },
+      "vanjarajuhi10_1802b082f5874acdb82ab98dcaf028c3.jpg": {
+        "resolution": "1440x1440",
+        "format": "WEBP",
+        "size_kb": 339.6
+      },
+      "vanjarajuhi10_1c9fbf703a6b4bcfa7934518af22c869.jpg": {
+        "resolution": "1440x1440",
+        "format": "WEBP",
+        "size_kb": 215.9
+      }
+    },
+    "simulator": {
+      "1a07yi_orig.webp": {
+        "resolution": "1200x1051",
+        "format": "WEBP",
+        "size_kb": 46.2
+      },
+      "c8swtoq_0.webp": {
+        "resolution": "1440x810",
+        "format": "WEBP",
+        "size_kb": 17.7
+      }
+    }
+  },
+  "facebook": {
+    "real": {
+      "FB_IMG_1789380516953.jpg": {
+        "resolution": "1080x715",
+        "format": "JPEG",
+        "size_kb": 64.3
+      },
+      "FB_IMG_1789380519915.jpg": {
+        "resolution": "1080x715",
+        "format": "JPEG",
+        "size_kb": 65.7
+      },
+      "FB_IMG_1789380522195.jpg": {
+        "resolution": "1080x1631",
+        "format": "JPEG",
+        "size_kb": 206.4
+      },
+      "FB_IMG_1789380524476.jpg": {
+        "resolution": "1080x715",
+        "format": "JPEG",
+        "size_kb": 70.3
+      },
+      "FB_IMG_1789380526923.jpg": {
+        "resolution": "1080x1631",
+        "format": "JPEG",
+        "size_kb": 176.3
+      }
+    },
+    "simulator": {
+      "1a07yi_orig.jpg": {
+        "resolution": "1080x945",
+        "format": "JPEG",
+        "size_kb": 60.7
+      },
+      "c8swtoq_0.jpg": {
+        "resolution": "1080x607",
+        "format": "JPEG",
+        "size_kb": 24.0
+      }
+    }
+  },
+  "telegram": {
+    "real": {
+      "6140694500817441116.jpg": {
+        "resolution": "1279x847",
+        "format": "JPEG",
+        "size_kb": 173.0
+      },
+      "6140694500817441117.jpg": {
+        "resolution": "1279x847",
+        "format": "JPEG",
+        "size_kb": 320.7
+      },
+      "6140694500817441118.jpg": {
+        "resolution": "847x1279",
+        "format": "JPEG",
+        "size_kb": 422.7
+      },
+      "6140694500817441119.jpg": {
+        "resolution": "1279x847",
+        "format": "JPEG",
+        "size_kb": 134.7
+      },
+      "6140694500817441120.jpg": {
+        "resolution": "1279x847",
+        "format": "JPEG",
+        "size_kb": 289.9
+      },
+      "6140694500817441085.jpg": {
+        "resolution": "375x500",
+        "format": "JPEG",
+        "size_kb": 56.2
+      },
+      "6140694500817441086.jpg": {
+        "resolution": "375x500",
+        "format": "JPEG",
+        "size_kb": 87.1
+      },
+      "6140694500817441087.jpg": {
+        "resolution": "375x500",
+        "format": "JPEG",
+        "size_kb": 69.4
+      },
+      "6140694500817441088.jpg": {
+        "resolution": "500x329",
+        "format": "JPEG",
+        "size_kb": 61.4
+      },
+      "6140694500817441089.jpg": {
+        "resolution": "500x388",
+        "format": "JPEG",
+        "size_kb": 76.1
+      }
+    },
+    "simulator": {
+      "1a07yi_orig.jpg": {
+        "resolution": "1200x1051",
+        "format": "JPEG",
+        "size_kb": 197.9
+      },
+      "c8swtoq_0.jpg": {
+        "resolution": "1280x720",
+        "format": "JPEG",
+        "size_kb": 60.4
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "beyond_the_brush_images_1100214449_medium_4_inpainted-0.png",
+    "dataset": "Generative_Inpainting",
+    "group_id": "INPAINT_beyond_the_brush_images_009",
+    "image_path": "../sample_images_ml/beyond_the_brush_images/1100214449_medium_4_inpainted-0.png",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "generative_inpainting"
+  },
+  {
+    "id": "IMD_1a4dqp_c8u4gpd_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a4dqp",
+    "image_path": "IMD2020/1a4dqp/c8u4gpd_0.jpg",
+    "mask_path": "IMD2020/1a4dqp/c8u4gpd_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "IMD_1aa6sn_1aa6sn_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1aa6sn",
+    "image_path": "IMD2020/1aa6sn/1aa6sn_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "RAISE_paired_r018ba134t.png",
+    "dataset": "RAISE_Inpainting_Pair",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_039",
+    "image_path": "../sample_images_ml/RAISE_training/r018ba134t.png",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1aeur2_1aeur2_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1aeur2",
+    "image_path": "IMD2020/1aeur2/1aeur2_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1a8jd2_c8v2pbm_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a8jd2",
+    "image_path": "IMD2020/1a8jd2/c8v2pbm_0.jpg",
+    "mask_path": "IMD2020/1a8jd2/c8v2pbm_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "CASIA2_Tp_Tp_S_NNN_S_N_ani00092_ani00092_00811.tif",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani00092",
+    "image_path": "stage1_data/CASIA2.0/Tp/Tp_S_NNN_S_N_ani00092_ani00092_00811.tif",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "splicing/copymove"
+  },
+  {
+    "id": "CASIA2_Au_Au_ani_10125.jpg",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani10125",
+    "image_path": "stage1_data/CASIA2.0/Au/Au_ani_10125.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "beyond_the_brush_diverse_images_3737539561_medium_0_inpainted-0.png",
+    "dataset": "Generative_Inpainting",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_038",
+    "image_path": "../sample_images_ml/beyond_the_brush_diverse_images/3737539561_medium_0_inpainted-0.png",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "generative_inpainting"
+  },
+  {
+    "id": "IMD_1a5h1p_1a5h1p_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a5h1p",
+    "image_path": "IMD2020/1a5h1p/1a5h1p_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  }
+]

@@ -1,0 +1,200 @@
+{
+  "platform": "telegram",
+  "orig_type": "fake",
+  "num_originals": 25,
+  "num_posted": 35,
+  "num_pairs": 25,
+  "pairs": [
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CND_A_pla0005_pla0023_0281.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778690.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9996,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_art0024_ani0032_0268.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778696.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_pla0070_pla0073_0273.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778704.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9997,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_pla0079_pla0049_0274.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778710.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9995,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_C_ani0068_ani0045_0099.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778707.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_ani0043_ani0041_0373.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778709.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9995,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_arc0082_ani0076_0378.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778684.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9996,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_art0093_art0013_0380.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778716.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9996,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_cha0073_ani0090_0381.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778687.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_ani0053_ani0054_0267.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778686.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9992,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_nat0014_nat0017_0097.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778695.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_pla0030_pla0061_0272.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778700.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9996,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_sec0041_pla0037_0098.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778703.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9996,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_R_art0027_art0066_0100.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778706.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_R_art0044_art0018_0278.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778708.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9997,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_ani0036_ani0066_0372.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778713.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9995,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_art0042_sec0086_0379.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778689.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_nat0013_cha0086_0383.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778694.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9997,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CND_A_sec0056_sec0015_0282.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778685.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_cha0025_pla0067_0269.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778699.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_nat0071_ani0024_0270.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778698.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_R_art0006_art0087_0276.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778701.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9996,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_arc0024_ani0031_0265.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778682.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_nat0014_art0048_0384.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778691.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_nat0085_ani0027_0271.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778697.jpg",
+      "dhash_distance": 4,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    }
+  ],
+  "unmatched_originals": [],
+  "unmatched_posted": [
+    "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778683.jpg",
+    "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778688.jpg",
+    "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778692.jpg",
+    "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778693.jpg",
+    "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778702.jpg",
+    "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778705.jpg",
+    "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778711.jpg",
+    "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778712.jpg",
+    "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778714.jpg",
+    "D:\\ml_project\\DATA\\TELEGRAM\\telegram_fake\\6199532383086778715.jpg"
+  ],
+  "high_confidence_count": 25,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0
+}

@@ -1,0 +1,235 @@
+{
+  "num_originals": 25,
+  "num_posted": 25,
+  "num_pairs": 25,
+  "high_confidence_count": 25,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0,
+  "pairs": [
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r01d0b83bt.png",
+      "orig_filename": "r01d0b83bt.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441133.jpg",
+      "posted_filename": "6140694500817441133.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r15eef8b9t.png",
+      "orig_filename": "r15eef8b9t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441130.jpg",
+      "posted_filename": "6140694500817441130.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r1ee65904t.png",
+      "orig_filename": "r1ee65904t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441132.jpg",
+      "posted_filename": "6140694500817441132.jpg",
+      "dhash_distance": 0,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r039a5ef5t.png",
+      "orig_filename": "r039a5ef5t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441123.jpg",
+      "posted_filename": "6140694500817441123.jpg",
+      "dhash_distance": 1,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0589558at.png",
+      "orig_filename": "r0589558at.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441122.jpg",
+      "posted_filename": "6140694500817441122.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r06691aa5t.png",
+      "orig_filename": "r06691aa5t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441128.jpg",
+      "posted_filename": "6140694500817441128.jpg",
+      "dhash_distance": 1,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0fbe1b0ft.png",
+      "orig_filename": "r0fbe1b0ft.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441141.jpg",
+      "posted_filename": "6140694500817441141.jpg",
+      "dhash_distance": 1,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r13934dc7t.png",
+      "orig_filename": "r13934dc7t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441127.jpg",
+      "posted_filename": "6140694500817441127.jpg",
+      "dhash_distance": 1,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0b5b85d0t.png",
+      "orig_filename": "r0b5b85d0t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441124.jpg",
+      "posted_filename": "6140694500817441124.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0bdc7894t.png",
+      "orig_filename": "r0bdc7894t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441126.jpg",
+      "posted_filename": "6140694500817441126.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r138ceafbt.png",
+      "orig_filename": "r138ceafbt.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441118.jpg",
+      "posted_filename": "6140694500817441118.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r15028ceft.png",
+      "orig_filename": "r15028ceft.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441116.jpg",
+      "posted_filename": "6140694500817441116.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r17228bbdt.png",
+      "orig_filename": "r17228bbdt.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441120.jpg",
+      "posted_filename": "6140694500817441120.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r1a7346d0t.png",
+      "orig_filename": "r1a7346d0t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441139.jpg",
+      "posted_filename": "6140694500817441139.jpg",
+      "dhash_distance": 2,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0408fe9ft.png",
+      "orig_filename": "r0408fe9ft.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441136.jpg",
+      "posted_filename": "6140694500817441136.jpg",
+      "dhash_distance": 3,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0905697bt.png",
+      "orig_filename": "r0905697bt.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441121.jpg",
+      "posted_filename": "6140694500817441121.jpg",
+      "dhash_distance": 3,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r09579ff2t.png",
+      "orig_filename": "r09579ff2t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441137.jpg",
+      "posted_filename": "6140694500817441137.jpg",
+      "dhash_distance": 3,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r03cef811t.png",
+      "orig_filename": "r03cef811t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441135.jpg",
+      "posted_filename": "6140694500817441135.jpg",
+      "dhash_distance": 4,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r041c02cat.png",
+      "orig_filename": "r041c02cat.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441125.jpg",
+      "posted_filename": "6140694500817441125.jpg",
+      "dhash_distance": 4,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r06d3ac60t.png",
+      "orig_filename": "r06d3ac60t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441138.jpg",
+      "posted_filename": "6140694500817441138.jpg",
+      "dhash_distance": 4,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0e04cc91t.png",
+      "orig_filename": "r0e04cc91t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441129.jpg",
+      "posted_filename": "6140694500817441129.jpg",
+      "dhash_distance": 4,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r14ca1259t.png",
+      "orig_filename": "r14ca1259t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441134.jpg",
+      "posted_filename": "6140694500817441134.jpg",
+      "dhash_distance": 4,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0fdfc4f0t.png",
+      "orig_filename": "r0fdfc4f0t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441131.jpg",
+      "posted_filename": "6140694500817441131.jpg",
+      "dhash_distance": 6,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r104153eat.png",
+      "orig_filename": "r104153eat.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441119.jpg",
+      "posted_filename": "6140694500817441119.jpg",
+      "dhash_distance": 6,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r11865f77t.png",
+      "orig_filename": "r11865f77t.png",
+      "posted_path": "D:\\ml_project\\DATA\\TELEGRAM\\telegram_real\\6140694500817441117.jpg",
+      "posted_filename": "6140694500817441117.jpg",
+      "dhash_distance": 10,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    }
+  ]
+}

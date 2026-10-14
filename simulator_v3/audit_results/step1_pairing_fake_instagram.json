@@ -1,0 +1,189 @@
+{
+  "platform": "instagram",
+  "orig_type": "fake",
+  "num_originals": 25,
+  "num_posted": 25,
+  "num_pairs": 25,
+  "pairs": [
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_art0093_art0013_0380.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_76d66c223d7a4622aaa28ecc1ec8b3ad.jpg",
+      "dhash_distance": 73,
+      "ssim": 0.5755,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_nat0013_cha0086_0383.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_c50ecfa0bf7740dba2b35dc33864d9cf.jpg",
+      "dhash_distance": 75,
+      "ssim": 0.7466,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_nat0014_nat0017_0097.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_b6b0d46f9f9c4388a397d054835beb52.jpg",
+      "dhash_distance": 81,
+      "ssim": 0.6538,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CND_A_sec0056_sec0015_0282.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_728e2a14107c41679b83fab481531594.jpg",
+      "dhash_distance": 87,
+      "ssim": 0.6091,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_art0042_sec0086_0379.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_ee18f729663245eb969e9756f73c378a.jpg",
+      "dhash_distance": 87,
+      "ssim": 0.7672,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_pla0030_pla0061_0272.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_9d33d3c0951b4574ada71a42795755aa.jpg",
+      "dhash_distance": 90,
+      "ssim": 0.3372,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_nat0014_art0048_0384.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_1929bc03aa1448b8b4393df975ef992c.jpg",
+      "dhash_distance": 91,
+      "ssim": 0.4834,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_R_art0006_art0087_0276.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_02a0e2674431413d814fbd5e2976d856.jpg",
+      "dhash_distance": 93,
+      "ssim": 0.3198,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_ani0043_ani0041_0373.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_63b0d79bae35496a96c256dd25b24c8d.jpg",
+      "dhash_distance": 100,
+      "ssim": 0.6244,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_pla0079_pla0049_0274.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_b1a701d7139e40dca13cd9bf1869206f.jpg",
+      "dhash_distance": 103,
+      "ssim": 0.3579,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CND_A_pla0005_pla0023_0281.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_085b1922301443bd9f13668a324180f4.jpg",
+      "dhash_distance": 104,
+      "ssim": 0.2922,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_nat0071_ani0024_0270.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_7db41d02b6e3461c98d35d38acf0146a.jpg",
+      "dhash_distance": 105,
+      "ssim": 0.6412,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_pla0070_pla0073_0273.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_283f1a36fadd4580afd3acf6f4116bd7.jpg",
+      "dhash_distance": 105,
+      "ssim": 0.279,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_arc0024_ani0031_0265.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_192ae250cdf149269d5965d97c63ff09.jpg",
+      "dhash_distance": 106,
+      "ssim": 0.4223,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_arc0082_ani0076_0378.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_6409f16dfd564cde850d50e79043120e.jpg",
+      "dhash_distance": 107,
+      "ssim": 0.526,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_art0024_ani0032_0268.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_7a70058328cf4d3f8759b5efab966360.jpg",
+      "dhash_distance": 111,
+      "ssim": 0.4715,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_nat0085_ani0027_0271.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_58195810a6a14bd6a8e65b4d6c421682.jpg",
+      "dhash_distance": 111,
+      "ssim": 0.6863,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_R_art0027_art0066_0100.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_2d66dea8ee7d4c21bf41a211f1ee28c3.jpg",
+      "dhash_distance": 113,
+      "ssim": -0.0158,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_cha0025_pla0067_0269.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_31e9003a6f794240a8200957789c712f.jpg",
+      "dhash_distance": 114,
+      "ssim": 0.0597,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_R_art0044_art0018_0278.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_b35d9cc15df14aacb767ad6d793471cd.jpg",
+      "dhash_distance": 116,
+      "ssim": 0.0516,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_ani0036_ani0066_0372.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_08560df12678493d9bf6a504c8c13ebc.jpg",
+      "dhash_distance": 117,
+      "ssim": 0.6869,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_sec0041_pla0037_0098.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_2e3524ef93a2482a9912b5b576461d0d.jpg",
+      "dhash_distance": 120,
+      "ssim": 0.4265,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_C_ani0068_ani0045_0099.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_e50c04c0d3ad470da312c29c14e89d8f.jpg",
+      "dhash_distance": 121,
+      "ssim": 0.0568,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CRN_A_cha0073_ani0090_0381.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_16233a4b4c8446f7a5c4a64b9bc5484d.jpg",
+      "dhash_distance": 124,
+      "ssim": -0.0163,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\FAKE\\Sp_D_CNN_A_ani0053_ani0054_0267.jpg",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Fake\\vanjarajuhi10_dd296d3f2f8f4f55adebb67628def273.jpg",
+      "dhash_distance": 128,
+      "ssim": -0.0082,
+      "confidence": "LOW"
+    }
+  ],
+  "unmatched_originals": [],
+  "unmatched_posted": [],
+  "high_confidence_count": 0,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 25
+}

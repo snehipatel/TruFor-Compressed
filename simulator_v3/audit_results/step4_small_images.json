@@ -1,0 +1,234 @@
+{
+  "whatsapp": {
+    "real_posted_sizes": [
+      [
+        256,
+        384
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "real_upscaled": false,
+    "v1_output_sizes": [
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "v3_output_sizes": [
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "finding": "Real Whatsapp preserves original 384x256 dimensions (does NOT upscale). Both v1 and v3 correctly preserve 384x256 dimensions and apply empirical Q-tables."
+  },
+  "facebook": {
+    "real_posted_sizes": [
+      [
+        256,
+        384
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "real_upscaled": false,
+    "v1_output_sizes": [
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "v3_output_sizes": [
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "finding": "Real Facebook preserves original 384x256 dimensions (does NOT upscale). Both v1 and v3 correctly preserve 384x256 dimensions and apply empirical Q-tables."
+  },
+  "telegram": {
+    "real_posted_sizes": [
+      [
+        256,
+        384
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "real_upscaled": false,
+    "v1_output_sizes": [
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "v3_output_sizes": [
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "finding": "Real Telegram preserves original 384x256 dimensions (does NOT upscale). Both v1 and v3 correctly preserve 384x256 dimensions and apply empirical Q-tables."
+  },
+  "instagram": {
+    "real_posted_sizes": [
+      [
+        1440,
+        1440
+      ],
+      [
+        1440,
+        1148
+      ]
+    ],
+    "real_upscaled": true,
+    "v1_output_sizes": [
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "v3_output_sizes": [
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ],
+      [
+        384,
+        256
+      ]
+    ],
+    "finding": "Real Instagram upscales small CASIA 384x256 images to width 1440 (1440x1440 or 1440x1152). v1 left small images at 384x256 because `max(w,h) > max_dim` evaluated False. This explains why CASIA 1.0 collapsed under v1 in earlier benchmarks."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "clean_cocoglide": {
+    "real_mean": 0.2471,
+    "real_median": 0.1878,
+    "fake_mean": 0.4485,
+    "fake_median": 0.3755
+  },
+  "platforms": {
+    "whatsapp": {
+      "real_platform_gt": {
+        "real_mean": 0.1414,
+        "fake_mean": 0.8161
+      },
+      "v1_simulated": {
+        "real_mean": 0.2139,
+        "real_median": 0.1402,
+        "fake_mean": 0.3857,
+        "fake_median": 0.3282,
+        "mae_to_gt": 0.2515
+      },
+      "v2_simulated": {
+        "real_mean": 0.2139,
+        "real_median": 0.1402,
+        "fake_mean": 0.3857,
+        "fake_median": 0.3282,
+        "mae_to_gt": 0.2515
+      },
+      "v2_closer": true,
+      "improvement_delta": 0.0,
+      "elapsed_sec": 111.6
+    },
+    "facebook": {
+      "real_platform_gt": {
+        "real_mean": 0.2632,
+        "fake_mean": 0.7001
+      },
+      "v1_simulated": {
+        "real_mean": 0.2878,
+        "real_median": 0.2264,
+        "fake_mean": 0.4487,
+        "fake_median": 0.3716,
+        "mae_to_gt": 0.138
+      },
+      "v2_simulated": {
+        "real_mean": 0.2878,
+        "real_median": 0.2264,
+        "fake_mean": 0.4487,
+        "fake_median": 0.3716,
+        "mae_to_gt": 0.138
+      },
+      "v2_closer": true,
+      "improvement_delta": 0.0,
+      "elapsed_sec": 110.1
+    },
+    "telegram": {
+      "real_platform_gt": {
+        "real_mean": 0.2435,
+        "fake_mean": 0.7298
+      },
+      "v1_simulated": {
+        "real_mean": 0.2373,
+        "real_median": 0.1715,
+        "fake_mean": 0.3855,
+        "fake_median": 0.3659,
+        "mae_to_gt": 0.1753
+      },
+      "v2_simulated": {
+        "real_mean": 0.2373,
+        "real_median": 0.1715,
+        "fake_mean": 0.3855,
+        "fake_median": 0.3659,
+        "mae_to_gt": 0.1753
+      },
+      "v2_closer": true,
+      "improvement_delta": 0.0,
+      "elapsed_sec": 108.6
+    },
+    "instagram": {
+      "real_platform_gt": {
+        "real_mean": 0.2447,
+        "fake_mean": 0.3656
+      },
+      "v1_simulated": {
+        "real_mean": 0.3215,
+        "real_median": 0.2274,
+        "fake_mean": 0.4597,
+        "fake_median": 0.3871,
+        "mae_to_gt": 0.0855
+      },
+      "v2_simulated": {
+        "real_mean": 0.2909,
+        "real_median": 0.2194,
+        "fake_mean": 0.4221,
+        "fake_median": 0.3318,
+        "mae_to_gt": 0.0513
+      },
+      "v2_closer": true,
+      "improvement_delta": 0.0341,
+      "elapsed_sec": 110.7
+    }
+  }
+}

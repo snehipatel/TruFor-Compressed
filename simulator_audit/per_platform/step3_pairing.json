@@ -1,0 +1,17 @@
+{
+  "conclusion": "No filename-based pairing exists between originals and platform images.",
+  "whatsapp_lossless_to_originals": {
+    "wa_lossless_count": 25,
+    "orig_real_count": 25,
+    "stem_overlap": 25,
+    "stems_match": true
+  },
+  "method": "DISTRIBUTION_MATCHING",
+  "details": {
+    "whatsapp": "WhatsApp filenames are 'WhatsApp Image 2026-09-15 at ...' - no match to originals",
+    "facebook": "Facebook filenames are 'FB_IMG_TIMESTAMP.jpg' - no match to originals",
+    "instagram": "Instagram filenames are 'vanjarajuhi10_GUID.jpg' - no match to originals",
+    "telegram": "Telegram filenames are numeric 'NUMBER.jpg' - no match to originals",
+    "wa_lossless": "whatsapp_real_losslessly_compressed has 25 files with same stems as REAL originals: True"
+  }
+}

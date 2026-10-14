@@ -1,0 +1,1425 @@
+{
+  "platform": "instagram",
+  "summary": {
+    "num_pairs": 25,
+    "exact_dim_match_rate_v1": 0.0,
+    "exact_dim_match_rate_v2": 0.0,
+    "median_bpp_ratio_v1": 1.1999,
+    "median_bpp_ratio_v2": 1.2983,
+    "mean_bpp_ratio_v1": 1.2061,
+    "mean_bpp_ratio_v2": 1.3085,
+    "median_fs_ratio_v1": 0.7941,
+    "median_fs_ratio_v2": 0.8592,
+    "median_psnr_v1": 12.84,
+    "median_psnr_v2": 12.83,
+    "median_ssim_v1": 0.5666,
+    "median_ssim_v2": 0.5666,
+    "median_noise_real": 419.77,
+    "median_noise_v1": 943.35,
+    "median_noise_v2": 938.02,
+    "v1_verdict": "TOO MILD",
+    "v2_verdict": "TOO MILD"
+  },
+  "per_image": [
+    {
+      "pair_idx": 0,
+      "orig_filename": "r06691aa5t.png",
+      "real_filename": "vanjarajuhi10_585e8f9bbe454a4599344e9b64ff6303.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 51434,
+        "bpp": 0.198434,
+        "progressive": null,
+        "blocking": 1.1873,
+        "noise_energy": 109.62,
+        "median_energy": 3.1,
+        "dct_ac": 10030.62,
+        "dct_hf": 220.01
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 39816,
+        "file_size_ratio": 0.7741,
+        "bpp": 0.232109,
+        "bpp_ratio": 1.1697,
+        "progressive": null,
+        "psnr": 8.86,
+        "ssim": 0.2125,
+        "blocking": 1.1432,
+        "noise_energy": 246.87,
+        "median_energy": 7.84,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 42508,
+        "file_size_ratio": 0.8265,
+        "bpp": 0.247802,
+        "bpp_ratio": 1.2488,
+        "progressive": null,
+        "psnr": 8.86,
+        "ssim": 0.2126,
+        "blocking": 1.14,
+        "noise_energy": 246.78,
+        "median_energy": 7.81,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 1,
+      "orig_filename": "r06d3ac60t.png",
+      "real_filename": "vanjarajuhi10_8d26c9f0348f4ac281387135cf030238.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 81788,
+        "bpp": 0.31554,
+        "progressive": null,
+        "blocking": 1.1165,
+        "noise_energy": 23.22,
+        "median_energy": 0.75,
+        "dct_ac": 6699.64,
+        "dct_hf": 41.62
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 69366,
+        "file_size_ratio": 0.8481,
+        "bpp": 0.404372,
+        "bpp_ratio": 1.2815,
+        "progressive": null,
+        "psnr": 12.84,
+        "ssim": 0.5619,
+        "blocking": 1.0465,
+        "noise_energy": 62.21,
+        "median_energy": 2.09,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 76392,
+        "file_size_ratio": 0.934,
+        "bpp": 0.445331,
+        "bpp_ratio": 1.4113,
+        "progressive": null,
+        "psnr": 12.83,
+        "ssim": 0.562,
+        "blocking": 1.1366,
+        "noise_energy": 72.98,
+        "median_energy": 2.59,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 2,
+      "orig_filename": "r0b5b85d0t.png",
+      "real_filename": "vanjarajuhi10_06b724e051e74aac88ef379631e00ea2.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 108548,
+        "bpp": 0.418781,
+        "progressive": null,
+        "blocking": 1.1235,
+        "noise_energy": 50.92,
+        "median_energy": 1.85,
+        "dct_ac": 9409.31,
+        "dct_hf": 116.74
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 86198,
+        "file_size_ratio": 0.7941,
+        "bpp": 0.502495,
+        "bpp_ratio": 1.1999,
+        "progressive": null,
+        "psnr": 12.42,
+        "ssim": 0.3556,
+        "blocking": 1.0861,
+        "noise_energy": 130.08,
+        "median_energy": 5.0,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 93826,
+        "file_size_ratio": 0.8644,
+        "bpp": 0.546963,
+        "bpp_ratio": 1.3061,
+        "progressive": null,
+        "psnr": 12.41,
+        "ssim": 0.3558,
+        "blocking": 1.0776,
+        "noise_energy": 132.49,
+        "median_energy": 5.05,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 3,
+      "orig_filename": "r0fbe1b0ft.png",
+      "real_filename": "vanjarajuhi10_a528e5fc99cd4f21bbfca2a8331fc6f4.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 284880,
+        "bpp": 1.099074,
+        "progressive": null,
+        "blocking": 1.0995,
+        "noise_energy": 1561.04,
+        "median_energy": 100.55,
+        "dct_ac": 32527.57,
+        "dct_hf": 3764.81
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 216456,
+        "file_size_ratio": 0.7598,
+        "bpp": 1.26184,
+        "bpp_ratio": 1.1481,
+        "progressive": null,
+        "psnr": 12.72,
+        "ssim": 0.6975,
+        "blocking": 1.0617,
+        "noise_energy": 2980.58,
+        "median_energy": 184.58,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 231854,
+        "file_size_ratio": 0.8139,
+        "bpp": 1.351603,
+        "bpp_ratio": 1.2298,
+        "progressive": null,
+        "psnr": 12.72,
+        "ssim": 0.6975,
+        "blocking": 1.056,
+        "noise_energy": 2972.72,
+        "median_energy": 184.52,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 4,
+      "orig_filename": "r15028ceft.png",
+      "real_filename": "vanjarajuhi10_7175b0d340684d6cac00b136d85b6a59.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 85328,
+        "bpp": 0.329198,
+        "progressive": null,
+        "blocking": 1.1338,
+        "noise_energy": 138.66,
+        "median_energy": 7.89,
+        "dct_ac": 7776.9,
+        "dct_hf": 387.12
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 65680,
+        "file_size_ratio": 0.7697,
+        "bpp": 0.382884,
+        "bpp_ratio": 1.1631,
+        "progressive": null,
+        "psnr": 13.31,
+        "ssim": 0.6925,
+        "blocking": 1.1029,
+        "noise_energy": 357.44,
+        "median_energy": 19.59,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 71812,
+        "file_size_ratio": 0.8416,
+        "bpp": 0.418631,
+        "bpp_ratio": 1.2717,
+        "progressive": null,
+        "psnr": 13.31,
+        "ssim": 0.6925,
+        "blocking": 1.1211,
+        "noise_energy": 365.56,
+        "median_energy": 19.98,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 5,
+      "orig_filename": "r15eef8b9t.png",
+      "real_filename": "vanjarajuhi10_ef731a9b5ea341f19399e95049f3c600.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 241774,
+        "bpp": 0.93277,
+        "progressive": null,
+        "blocking": 1.0624,
+        "noise_energy": 365.03,
+        "median_energy": 18.69,
+        "dct_ac": 17365.62,
+        "dct_hf": 750.96
+      },
+      "v1": {
+        "dims": [
+          953,
+          1440
+        ],
+        "dims_match": false,
+        "file_size": 135586,
+        "file_size_ratio": 0.5608,
+        "bpp": 0.790405,
+        "bpp_ratio": 0.8474,
+        "progressive": null,
+        "psnr": 10.52,
+        "ssim": 0.2896,
+        "blocking": 1.1144,
+        "noise_energy": 347.32,
+        "median_energy": 17.53,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          953,
+          1440
+        ],
+        "dims_match": false,
+        "file_size": 147194,
+        "file_size_ratio": 0.6088,
+        "bpp": 0.858074,
+        "bpp_ratio": 0.9199,
+        "progressive": null,
+        "psnr": 10.52,
+        "ssim": 0.2898,
+        "blocking": 1.0801,
+        "noise_energy": 342.85,
+        "median_energy": 17.26,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 6,
+      "orig_filename": "r0408fe9ft.png",
+      "real_filename": "vanjarajuhi10_08e9db9ddd0f49f1b02f75300578bde3.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 210512,
+        "bpp": 0.81216,
+        "progressive": null,
+        "blocking": 1.1376,
+        "noise_energy": 724.92,
+        "median_energy": 40.71,
+        "dct_ac": 19986.72,
+        "dct_hf": 1941.18
+      },
+      "v1": {
+        "dims": [
+          953,
+          1440
+        ],
+        "dims_match": false,
+        "file_size": 134806,
+        "file_size_ratio": 0.6404,
+        "bpp": 0.785858,
+        "bpp_ratio": 0.9676,
+        "progressive": null,
+        "psnr": 12.74,
+        "ssim": 0.7556,
+        "blocking": 1.1259,
+        "noise_energy": 1038.21,
+        "median_energy": 56.56,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          953,
+          1440
+        ],
+        "dims_match": false,
+        "file_size": 146064,
+        "file_size_ratio": 0.6939,
+        "bpp": 0.851487,
+        "bpp_ratio": 1.0484,
+        "progressive": null,
+        "psnr": 12.73,
+        "ssim": 0.7556,
+        "blocking": 1.115,
+        "noise_energy": 1035.56,
+        "median_energy": 56.25,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 7,
+      "orig_filename": "r0bdc7894t.png",
+      "real_filename": "vanjarajuhi10_4a4d8faddca94b428d70c13833cf88e5.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 35782,
+        "bpp": 0.138048,
+        "progressive": null,
+        "blocking": 1.5308,
+        "noise_energy": 30.26,
+        "median_energy": 1.07,
+        "dct_ac": 3231.19,
+        "dct_hf": 59.23
+      },
+      "v1": {
+        "dims": [
+          953,
+          1440
+        ],
+        "dims_match": false,
+        "file_size": 27956,
+        "file_size_ratio": 0.7813,
+        "bpp": 0.162971,
+        "bpp_ratio": 1.1805,
+        "progressive": null,
+        "psnr": 13.3,
+        "ssim": 0.3942,
+        "blocking": 1.3114,
+        "noise_energy": 60.38,
+        "median_energy": 2.25,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          953,
+          1440
+        ],
+        "dims_match": false,
+        "file_size": 29844,
+        "file_size_ratio": 0.8341,
+        "bpp": 0.173977,
+        "bpp_ratio": 1.2603,
+        "progressive": null,
+        "psnr": 13.3,
+        "ssim": 0.3939,
+        "blocking": 1.3167,
+        "noise_energy": 59.8,
+        "median_energy": 2.2,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 8,
+      "orig_filename": "r0e04cc91t.png",
+      "real_filename": "vanjarajuhi10_c005d3dc155d4e2a8dbd5c19bb562a7b.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 413114,
+        "bpp": 1.593804,
+        "progressive": null,
+        "blocking": 1.0828,
+        "noise_energy": 1957.92,
+        "median_energy": 123.8,
+        "dct_ac": 33398.82,
+        "dct_hf": 5167.18
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 277482,
+        "file_size_ratio": 0.6717,
+        "bpp": 1.617594,
+        "bpp_ratio": 1.0149,
+        "progressive": null,
+        "psnr": 13.63,
+        "ssim": 0.4974,
+        "blocking": 1.0519,
+        "noise_energy": 3113.52,
+        "median_energy": 182.05,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 301582,
+        "file_size_ratio": 0.73,
+        "bpp": 1.758086,
+        "bpp_ratio": 1.1031,
+        "progressive": null,
+        "psnr": 13.63,
+        "ssim": 0.4972,
+        "blocking": 1.0359,
+        "noise_energy": 3176.62,
+        "median_energy": 185.45,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 9,
+      "orig_filename": "r14ca1259t.png",
+      "real_filename": "vanjarajuhi10_21871849c8cc45cdbf9abb5e60e0f287.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 231440,
+        "bpp": 0.892901,
+        "progressive": null,
+        "blocking": 1.1666,
+        "noise_energy": 469.17,
+        "median_energy": 21.92,
+        "dct_ac": 26295.54,
+        "dct_hf": 975.12
+      },
+      "v1": {
+        "dims": [
+          953,
+          1440
+        ],
+        "dims_match": false,
+        "file_size": 179406,
+        "file_size_ratio": 0.7752,
+        "bpp": 1.045855,
+        "bpp_ratio": 1.1713,
+        "progressive": null,
+        "psnr": 12.95,
+        "ssim": 0.4334,
+        "blocking": 1.1326,
+        "noise_energy": 973.1,
+        "median_energy": 50.51,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          953,
+          1440
+        ],
+        "dims_match": false,
+        "file_size": 191838,
+        "file_size_ratio": 0.8289,
+        "bpp": 1.118328,
+        "bpp_ratio": 1.2525,
+        "progressive": null,
+        "psnr": 12.95,
+        "ssim": 0.4333,
+        "blocking": 1.1434,
+        "noise_energy": 967.01,
+        "median_energy": 50.09,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 10,
+      "orig_filename": "r17228bbdt.png",
+      "real_filename": "vanjarajuhi10_9f418b1999134dab92c9406edcd75003.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 190984,
+        "bpp": 0.736821,
+        "progressive": null,
+        "blocking": 1.0474,
+        "noise_energy": 419.77,
+        "median_energy": 26.55,
+        "dct_ac": 19679.49,
+        "dct_hf": 878.69
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 163000,
+        "file_size_ratio": 0.8535,
+        "bpp": 0.950216,
+        "bpp_ratio": 1.2896,
+        "progressive": null,
+        "psnr": 13.08,
+        "ssim": 0.5153,
+        "blocking": 1.0286,
+        "noise_energy": 943.35,
+        "median_energy": 64.71,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 173698,
+        "file_size_ratio": 0.9095,
+        "bpp": 1.01258,
+        "bpp_ratio": 1.3743,
+        "progressive": null,
+        "psnr": 13.08,
+        "ssim": 0.5154,
+        "blocking": 1.0265,
+        "noise_energy": 938.02,
+        "median_energy": 64.44,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 11,
+      "orig_filename": "r01d0b83bt.png",
+      "real_filename": "vanjarajuhi10_9e4a6bf761cd4320b0488fc8d12efafd.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 225772,
+        "bpp": 0.871034,
+        "progressive": null,
+        "blocking": 1.068,
+        "noise_energy": 1091.82,
+        "median_energy": 52.85,
+        "dct_ac": 49607.66,
+        "dct_hf": 2731.86
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 190934,
+        "file_size_ratio": 0.8457,
+        "bpp": 1.113058,
+        "bpp_ratio": 1.2779,
+        "progressive": null,
+        "psnr": 9.41,
+        "ssim": 0.5128,
+        "blocking": 1.0395,
+        "noise_energy": 2523.19,
+        "median_energy": 141.04,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 206822,
+        "file_size_ratio": 0.9161,
+        "bpp": 1.205678,
+        "bpp_ratio": 1.3842,
+        "progressive": null,
+        "psnr": 9.41,
+        "ssim": 0.5128,
+        "blocking": 1.0236,
+        "noise_energy": 2517.91,
+        "median_energy": 140.54,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 12,
+      "orig_filename": "r041c02cat.png",
+      "real_filename": "vanjarajuhi10_5c8bd4c83571455ba1d5d5b0f2fd35a1.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 104230,
+        "bpp": 0.402122,
+        "progressive": null,
+        "blocking": 1.1732,
+        "noise_energy": 147.75,
+        "median_energy": 8.02,
+        "dct_ac": 8144.4,
+        "dct_hf": 282.56
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 90468,
+        "file_size_ratio": 0.868,
+        "bpp": 0.527387,
+        "bpp_ratio": 1.3115,
+        "progressive": null,
+        "psnr": 16.62,
+        "ssim": 0.8278,
+        "blocking": 1.2081,
+        "noise_energy": 422.21,
+        "median_energy": 23.89,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 98896,
+        "file_size_ratio": 0.9488,
+        "bpp": 0.576519,
+        "bpp_ratio": 1.4337,
+        "progressive": null,
+        "psnr": 16.62,
+        "ssim": 0.8278,
+        "blocking": 1.1911,
+        "noise_energy": 433.27,
+        "median_energy": 24.46,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 13,
+      "orig_filename": "r09579ff2t.png",
+      "real_filename": "vanjarajuhi10_3b680fcecca34dafb0f0bc5225654698.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 138854,
+        "bpp": 0.535702,
+        "progressive": null,
+        "blocking": 1.0444,
+        "noise_energy": 269.7,
+        "median_energy": 13.35,
+        "dct_ac": 14992.57,
+        "dct_hf": 460.94
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 99638,
+        "file_size_ratio": 0.7176,
+        "bpp": 0.580844,
+        "bpp_ratio": 1.0843,
+        "progressive": null,
+        "psnr": 10.82,
+        "ssim": 0.6672,
+        "blocking": 1.0314,
+        "noise_energy": 415.15,
+        "median_energy": 22.02,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 109446,
+        "file_size_ratio": 0.7882,
+        "bpp": 0.63802,
+        "bpp_ratio": 1.191,
+        "progressive": null,
+        "psnr": 10.82,
+        "ssim": 0.6673,
+        "blocking": 0.966,
+        "noise_energy": 406.61,
+        "median_energy": 21.52,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 14,
+      "orig_filename": "r138ceafbt.png",
+      "real_filename": "vanjarajuhi10_0037831d05494cc0a6aef4f79b8e2493.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 387686,
+        "bpp": 1.495702,
+        "progressive": null,
+        "blocking": 1.1377,
+        "noise_energy": 1030.48,
+        "median_energy": 60.05,
+        "dct_ac": 34437.8,
+        "dct_hf": 2520.07
+      },
+      "v1": {
+        "dims": [
+          953,
+          1440
+        ],
+        "dims_match": false,
+        "file_size": 312074,
+        "file_size_ratio": 0.805,
+        "bpp": 1.819249,
+        "bpp_ratio": 1.2163,
+        "progressive": null,
+        "psnr": 11.68,
+        "ssim": 0.62,
+        "blocking": 1.0813,
+        "noise_energy": 2409.64,
+        "median_energy": 135.67,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          953,
+          1440
+        ],
+        "dims_match": false,
+        "file_size": 333104,
+        "file_size_ratio": 0.8592,
+        "bpp": 1.941844,
+        "bpp_ratio": 1.2983,
+        "progressive": null,
+        "psnr": 11.68,
+        "ssim": 0.6199,
+        "blocking": 1.071,
+        "noise_energy": 2398.01,
+        "median_energy": 134.52,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 15,
+      "orig_filename": "r13934dc7t.png",
+      "real_filename": "vanjarajuhi10_bc6ca52bd96d48af87652819e8921339.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 148106,
+        "bpp": 0.571397,
+        "progressive": null,
+        "blocking": 1.0804,
+        "noise_energy": 486.87,
+        "median_energy": 32.3,
+        "dct_ac": 12835.98,
+        "dct_hf": 1389.19
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 126410,
+        "file_size_ratio": 0.8535,
+        "bpp": 0.736913,
+        "bpp_ratio": 1.2897,
+        "progressive": null,
+        "psnr": 14.23,
+        "ssim": 0.8732,
+        "blocking": 1.0712,
+        "noise_energy": 1109.16,
+        "median_energy": 69.78,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 135272,
+        "file_size_ratio": 0.9133,
+        "bpp": 0.788574,
+        "bpp_ratio": 1.3801,
+        "progressive": null,
+        "psnr": 14.23,
+        "ssim": 0.8732,
+        "blocking": 1.0623,
+        "noise_energy": 1096.82,
+        "median_energy": 69.27,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 16,
+      "orig_filename": "r1a7346d0t.png",
+      "real_filename": "vanjarajuhi10_d45740ac89634fabb2781b656802bb33.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 332822,
+        "bpp": 1.284035,
+        "progressive": null,
+        "blocking": 1.1132,
+        "noise_energy": 1191.47,
+        "median_energy": 76.57,
+        "dct_ac": 27611.54,
+        "dct_hf": 3011.93
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 246854,
+        "file_size_ratio": 0.7417,
+        "bpp": 1.439046,
+        "bpp_ratio": 1.1207,
+        "progressive": null,
+        "psnr": 11.38,
+        "ssim": 0.6109,
+        "blocking": 1.0849,
+        "noise_energy": 2204.22,
+        "median_energy": 132.29,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 270374,
+        "file_size_ratio": 0.8124,
+        "bpp": 1.576157,
+        "bpp_ratio": 1.2275,
+        "progressive": null,
+        "psnr": 11.37,
+        "ssim": 0.6109,
+        "blocking": 1.0661,
+        "noise_energy": 2258.58,
+        "median_energy": 135.17,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 17,
+      "orig_filename": "r03cef811t.png",
+      "real_filename": "vanjarajuhi10_cff3b27815464f0797f022e41224cb97.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 88220,
+        "bpp": 0.340355,
+        "progressive": null,
+        "blocking": 1.0508,
+        "noise_energy": 69.46,
+        "median_energy": 2.51,
+        "dct_ac": 7455.93,
+        "dct_hf": 250.3
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 76280,
+        "file_size_ratio": 0.8647,
+        "bpp": 0.444678,
+        "bpp_ratio": 1.3065,
+        "progressive": null,
+        "psnr": 13.45,
+        "ssim": 0.3628,
+        "blocking": 1.128,
+        "noise_energy": 195.22,
+        "median_energy": 8.14,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 82854,
+        "file_size_ratio": 0.9392,
+        "bpp": 0.483001,
+        "bpp_ratio": 1.4191,
+        "progressive": null,
+        "psnr": 13.44,
+        "ssim": 0.3627,
+        "blocking": 1.1244,
+        "noise_energy": 198.86,
+        "median_energy": 8.24,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 18,
+      "orig_filename": "r104153eat.png",
+      "real_filename": "vanjarajuhi10_6e9e820b9fb844ddbcbbce6a0e7f0b85.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 35740,
+        "bpp": 0.137886,
+        "progressive": null,
+        "blocking": 1.5861,
+        "noise_energy": 20.47,
+        "median_energy": 0.86,
+        "dct_ac": 958.14,
+        "dct_hf": 43.39
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 36152,
+        "file_size_ratio": 1.0115,
+        "bpp": 0.21075,
+        "bpp_ratio": 1.5284,
+        "progressive": null,
+        "psnr": 19.58,
+        "ssim": 0.9202,
+        "blocking": 1.1918,
+        "noise_energy": 310.75,
+        "median_energy": 16.34,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 40278,
+        "file_size_ratio": 1.127,
+        "bpp": 0.234802,
+        "bpp_ratio": 1.7029,
+        "progressive": null,
+        "psnr": 19.57,
+        "ssim": 0.9201,
+        "blocking": 1.1932,
+        "noise_energy": 314.74,
+        "median_energy": 16.55,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 19,
+      "orig_filename": "r0589558at.png",
+      "real_filename": "vanjarajuhi10_3475ef99b5cb4c7c8ccd968b23d69201.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 137208,
+        "bpp": 0.529352,
+        "progressive": null,
+        "blocking": 1.0898,
+        "noise_energy": 245.42,
+        "median_energy": 14.26,
+        "dct_ac": 13718.58,
+        "dct_hf": 422.0
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 101690,
+        "file_size_ratio": 0.7411,
+        "bpp": 0.592806,
+        "bpp_ratio": 1.1199,
+        "progressive": null,
+        "psnr": 12.34,
+        "ssim": 0.3724,
+        "blocking": 1.0123,
+        "noise_energy": 468.48,
+        "median_energy": 29.49,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 112888,
+        "file_size_ratio": 0.8228,
+        "bpp": 0.658086,
+        "bpp_ratio": 1.2432,
+        "progressive": null,
+        "psnr": 12.33,
+        "ssim": 0.3724,
+        "blocking": 1.0039,
+        "noise_energy": 475.91,
+        "median_energy": 29.93,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 20,
+      "orig_filename": "r039a5ef5t.png",
+      "real_filename": "vanjarajuhi10_68126bcfdfd84fd399b288affa7a043d.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 98936,
+        "bpp": 0.381698,
+        "progressive": null,
+        "blocking": 1.0852,
+        "noise_energy": 463.24,
+        "median_energy": 19.5,
+        "dct_ac": 28113.24,
+        "dct_hf": 812.48
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 89152,
+        "file_size_ratio": 0.9011,
+        "bpp": 0.519716,
+        "bpp_ratio": 1.3616,
+        "progressive": null,
+        "psnr": 8.98,
+        "ssim": 0.5887,
+        "blocking": 1.0989,
+        "noise_energy": 980.57,
+        "median_energy": 54.07,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 97366,
+        "file_size_ratio": 0.9841,
+        "bpp": 0.567599,
+        "bpp_ratio": 1.487,
+        "progressive": null,
+        "psnr": 8.98,
+        "ssim": 0.5887,
+        "blocking": 1.1218,
+        "noise_energy": 999.62,
+        "median_energy": 55.33,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 21,
+      "orig_filename": "r0fdfc4f0t.png",
+      "real_filename": "vanjarajuhi10_337b8afe37b64088982f1f0e5e02841c.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 203066,
+        "bpp": 0.783434,
+        "progressive": null,
+        "blocking": 1.1279,
+        "noise_energy": 1194.02,
+        "median_energy": 88.48,
+        "dct_ac": 20099.32,
+        "dct_hf": 3230.63
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 158076,
+        "file_size_ratio": 0.7784,
+        "bpp": 0.921511,
+        "bpp_ratio": 1.1762,
+        "progressive": null,
+        "psnr": 12.89,
+        "ssim": 0.7878,
+        "blocking": 1.0967,
+        "noise_energy": 2323.02,
+        "median_energy": 160.75,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 170456,
+        "file_size_ratio": 0.8394,
+        "bpp": 0.993681,
+        "bpp_ratio": 1.2684,
+        "progressive": null,
+        "psnr": 12.89,
+        "ssim": 0.7877,
+        "blocking": 1.0861,
+        "noise_energy": 2320.89,
+        "median_energy": 160.86,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 22,
+      "orig_filename": "r1ee65904t.png",
+      "real_filename": "vanjarajuhi10_1802b082f5874acdb82ab98dcaf028c3.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 347708,
+        "bpp": 1.341466,
+        "progressive": null,
+        "blocking": 1.0924,
+        "noise_energy": 1582.74,
+        "median_energy": 98.05,
+        "dct_ac": 40317.64,
+        "dct_hf": 3908.01
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 302676,
+        "file_size_ratio": 0.8705,
+        "bpp": 1.764463,
+        "bpp_ratio": 1.3153,
+        "progressive": null,
+        "psnr": 12.58,
+        "ssim": 0.5666,
+        "blocking": 1.046,
+        "noise_energy": 4004.7,
+        "median_energy": 258.14,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 323844,
+        "file_size_ratio": 0.9314,
+        "bpp": 1.887863,
+        "bpp_ratio": 1.4073,
+        "progressive": null,
+        "psnr": 12.58,
+        "ssim": 0.5666,
+        "blocking": 1.041,
+        "noise_energy": 3958.99,
+        "median_energy": 255.75,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 23,
+      "orig_filename": "r0905697bt.png",
+      "real_filename": "vanjarajuhi10_f3e73c581fd84a9da9f987da95fe6ed0.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 40958,
+        "bpp": 0.158017,
+        "progressive": null,
+        "blocking": 1.1797,
+        "noise_energy": 36.48,
+        "median_energy": 2.59,
+        "dct_ac": 2113.01,
+        "dct_hf": 106.94
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 35026,
+        "file_size_ratio": 0.8552,
+        "bpp": 0.204186,
+        "bpp_ratio": 1.2922,
+        "progressive": null,
+        "psnr": 18.41,
+        "ssim": 0.9143,
+        "blocking": 1.182,
+        "noise_energy": 84.7,
+        "median_energy": 5.04,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 38426,
+        "file_size_ratio": 0.9382,
+        "bpp": 0.224006,
+        "bpp_ratio": 1.4176,
+        "progressive": null,
+        "psnr": 18.41,
+        "ssim": 0.9144,
+        "blocking": 1.1843,
+        "noise_energy": 89.52,
+        "median_energy": 5.31,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 24,
+      "orig_filename": "r11865f77t.png",
+      "real_filename": "vanjarajuhi10_1c9fbf703a6b4bcfa7934518af22c869.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1440,
+          1440
+        ],
+        "file_size": 221076,
+        "bpp": 0.852917,
+        "progressive": null,
+        "blocking": 1.0786,
+        "noise_energy": 1007.93,
+        "median_energy": 68.13,
+        "dct_ac": 31557.08,
+        "dct_hf": 2180.21
+      },
+      "v1": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 192862,
+        "file_size_ratio": 0.8724,
+        "bpp": 1.124298,
+        "bpp_ratio": 1.3182,
+        "progressive": null,
+        "psnr": 13.02,
+        "ssim": 0.4284,
+        "blocking": 1.0773,
+        "noise_energy": 2367.8,
+        "median_energy": 161.93,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1440,
+          953
+        ],
+        "dims_match": false,
+        "file_size": 208770,
+        "file_size_ratio": 0.9443,
+        "bpp": 1.217034,
+        "bpp_ratio": 1.4269,
+        "progressive": null,
+        "psnr": 13.02,
+        "ssim": 0.4282,
+        "blocking": 1.0753,
+        "noise_energy": 2369.34,
+        "median_energy": 161.95,
+        "qt_diffs": null
+      }
+    }
+  ]
+}

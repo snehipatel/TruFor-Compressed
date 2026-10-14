@@ -1,0 +1,1425 @@
+{
+  "platform": "facebook",
+  "summary": {
+    "num_pairs": 25,
+    "exact_dim_match_rate_v1": 0.8,
+    "exact_dim_match_rate_v2": 0.8,
+    "median_bpp_ratio_v1": 1.3354,
+    "median_bpp_ratio_v2": 1.2835,
+    "mean_bpp_ratio_v1": 1.3563,
+    "mean_bpp_ratio_v2": 1.2811,
+    "median_fs_ratio_v1": 1.2764,
+    "median_fs_ratio_v2": 1.2835,
+    "median_psnr_v1": 32.75,
+    "median_psnr_v2": 32.75,
+    "median_ssim_v1": 0.9998,
+    "median_ssim_v2": 0.9998,
+    "median_noise_real": 609.9,
+    "median_noise_v1": 1196.74,
+    "median_noise_v2": 840.07,
+    "v1_verdict": "TOO MILD",
+    "v2_verdict": "TOO MILD"
+  },
+  "per_image": [
+    {
+      "pair_idx": 0,
+      "orig_filename": "r0bdc7894t.png",
+      "real_filename": "FB_IMG_1789380555381.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          1631
+        ],
+        "file_size": 62939,
+        "bpp": 0.285846,
+        "progressive": null,
+        "blocking": 2.1889,
+        "noise_energy": 40.06,
+        "median_energy": 1.67,
+        "dct_ac": 3145.99,
+        "dct_hf": 48.97
+      },
+      "v1": {
+        "dims": [
+          715,
+          1080
+        ],
+        "dims_match": false,
+        "file_size": 39895,
+        "file_size_ratio": 0.6339,
+        "bpp": 0.413313,
+        "bpp_ratio": 1.4459,
+        "progressive": false,
+        "psnr": 39.76,
+        "ssim": 0.9998,
+        "blocking": 1.6334,
+        "noise_energy": 101.16,
+        "median_energy": 4.23,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          1630
+        ],
+        "dims_match": false,
+        "file_size": 71692,
+        "file_size_ratio": 1.1391,
+        "bpp": 0.325799,
+        "bpp_ratio": 1.1398,
+        "progressive": true,
+        "psnr": 40.86,
+        "ssim": 0.9999,
+        "blocking": 1.865,
+        "noise_energy": 51.1,
+        "median_energy": 2.0,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 1,
+      "orig_filename": "r13934dc7t.png",
+      "real_filename": "FB_IMG_1789380544555.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 63752,
+        "bpp": 0.660471,
+        "progressive": null,
+        "blocking": 1.5206,
+        "noise_energy": 748.02,
+        "median_energy": 51.61,
+        "dct_ac": 16605.47,
+        "dct_hf": 1914.96
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 90786,
+        "file_size_ratio": 1.424,
+        "bpp": 0.940544,
+        "bpp_ratio": 1.4241,
+        "progressive": false,
+        "psnr": 31.63,
+        "ssim": 0.9999,
+        "blocking": 1.2086,
+        "noise_energy": 1310.19,
+        "median_energy": 83.2,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 87329,
+        "file_size_ratio": 1.3698,
+        "bpp": 0.904729,
+        "bpp_ratio": 1.3698,
+        "progressive": true,
+        "psnr": 31.63,
+        "ssim": 0.9999,
+        "blocking": 1.2086,
+        "noise_energy": 1310.19,
+        "median_energy": 83.2,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 2,
+      "orig_filename": "r15eef8b9t.png",
+      "real_filename": "FB_IMG_1789380526923.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          1631
+        ],
+        "file_size": 180557,
+        "bpp": 0.820024,
+        "progressive": null,
+        "blocking": 1.6391,
+        "noise_energy": 224.19,
+        "median_energy": 12.3,
+        "dct_ac": 19918.07,
+        "dct_hf": 168.49
+      },
+      "v1": {
+        "dims": [
+          715,
+          1080
+        ],
+        "dims_match": false,
+        "file_size": 123711,
+        "file_size_ratio": 0.6852,
+        "bpp": 1.281647,
+        "bpp_ratio": 1.5629,
+        "progressive": false,
+        "psnr": 32.75,
+        "ssim": 0.9997,
+        "blocking": 1.2631,
+        "noise_energy": 606.99,
+        "median_energy": 35.84,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          1630
+        ],
+        "dims_match": false,
+        "file_size": 224233,
+        "file_size_ratio": 1.2419,
+        "bpp": 1.019009,
+        "bpp_ratio": 1.2427,
+        "progressive": true,
+        "psnr": 33.3,
+        "ssim": 0.9997,
+        "blocking": 1.3722,
+        "noise_energy": 287.42,
+        "median_energy": 15.65,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 3,
+      "orig_filename": "r1a7346d0t.png",
+      "real_filename": "FB_IMG_1789380546751.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 118199,
+        "bpp": 1.224543,
+        "progressive": null,
+        "blocking": 1.3887,
+        "noise_energy": 1314.84,
+        "median_energy": 88.82,
+        "dct_ac": 33533.3,
+        "dct_hf": 2785.36
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 173016,
+        "file_size_ratio": 1.4638,
+        "bpp": 1.792448,
+        "bpp_ratio": 1.4638,
+        "progressive": false,
+        "psnr": 28.17,
+        "ssim": 0.9998,
+        "blocking": 1.0902,
+        "noise_energy": 2606.96,
+        "median_energy": 158.49,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 164974,
+        "file_size_ratio": 1.3957,
+        "bpp": 1.709132,
+        "bpp_ratio": 1.3957,
+        "progressive": true,
+        "psnr": 28.17,
+        "ssim": 0.9998,
+        "blocking": 1.0902,
+        "noise_energy": 2606.96,
+        "median_energy": 158.49,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 4,
+      "orig_filename": "r1ee65904t.png",
+      "real_filename": "FB_IMG_1789380540103.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 141246,
+        "bpp": 1.46331,
+        "progressive": null,
+        "blocking": 1.3035,
+        "noise_energy": 2880.86,
+        "median_energy": 205.81,
+        "dct_ac": 45047.08,
+        "dct_hf": 7336.65
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 200190,
+        "file_size_ratio": 1.4173,
+        "bpp": 2.07397,
+        "bpp_ratio": 1.4173,
+        "progressive": false,
+        "psnr": 27.0,
+        "ssim": 0.9995,
+        "blocking": 1.0562,
+        "noise_energy": 4692.71,
+        "median_energy": 298.92,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 191950,
+        "file_size_ratio": 1.359,
+        "bpp": 1.988604,
+        "bpp_ratio": 1.359,
+        "progressive": true,
+        "psnr": 27.0,
+        "ssim": 0.9995,
+        "blocking": 1.0562,
+        "noise_energy": 4692.71,
+        "median_energy": 298.92,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 5,
+      "orig_filename": "r03cef811t.png",
+      "real_filename": "FB_IMG_1789380574409.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 68984,
+        "bpp": 0.714675,
+        "progressive": null,
+        "blocking": 1.6258,
+        "noise_energy": 202.37,
+        "median_energy": 10.23,
+        "dct_ac": 13565.66,
+        "dct_hf": 301.08
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 82865,
+        "file_size_ratio": 1.2012,
+        "bpp": 0.858482,
+        "bpp_ratio": 1.2012,
+        "progressive": false,
+        "psnr": 35.25,
+        "ssim": 0.9997,
+        "blocking": 1.3993,
+        "noise_energy": 312.63,
+        "median_energy": 15.11,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 82116,
+        "file_size_ratio": 1.1904,
+        "bpp": 0.850723,
+        "bpp_ratio": 1.1904,
+        "progressive": true,
+        "psnr": 35.25,
+        "ssim": 0.9997,
+        "blocking": 1.3993,
+        "noise_energy": 312.63,
+        "median_energy": 15.11,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 6,
+      "orig_filename": "r06691aa5t.png",
+      "real_filename": "FB_IMG_1789380553096.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 43185,
+        "bpp": 0.447397,
+        "progressive": null,
+        "blocking": 1.6848,
+        "noise_energy": 270.23,
+        "median_energy": 10.44,
+        "dct_ac": 16436.01,
+        "dct_hf": 606.58
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 49172,
+        "file_size_ratio": 1.1386,
+        "bpp": 0.509422,
+        "bpp_ratio": 1.1386,
+        "progressive": false,
+        "psnr": 37.58,
+        "ssim": 0.9999,
+        "blocking": 1.4723,
+        "noise_energy": 371.72,
+        "median_energy": 13.41,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 50418,
+        "file_size_ratio": 1.1675,
+        "bpp": 0.522331,
+        "bpp_ratio": 1.1675,
+        "progressive": true,
+        "psnr": 37.58,
+        "ssim": 0.9999,
+        "blocking": 1.4723,
+        "noise_energy": 371.72,
+        "median_energy": 13.41,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 7,
+      "orig_filename": "r138ceafbt.png",
+      "real_filename": "FB_IMG_1789380529393.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          1631
+        ],
+        "file_size": 319549,
+        "bpp": 1.451275,
+        "progressive": null,
+        "blocking": 1.3505,
+        "noise_energy": 1414.73,
+        "median_energy": 88.18,
+        "dct_ac": 44472.57,
+        "dct_hf": 2914.12
+      },
+      "v1": {
+        "dims": [
+          715,
+          1080
+        ],
+        "dims_match": false,
+        "file_size": 224582,
+        "file_size_ratio": 0.7028,
+        "bpp": 2.326672,
+        "bpp_ratio": 1.6032,
+        "progressive": false,
+        "psnr": 27.65,
+        "ssim": 0.9997,
+        "blocking": 1.0561,
+        "noise_energy": 3463.5,
+        "median_energy": 201.37,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          1630
+        ],
+        "dims_match": false,
+        "file_size": 427205,
+        "file_size_ratio": 1.3369,
+        "bpp": 1.9414,
+        "bpp_ratio": 1.3377,
+        "progressive": true,
+        "psnr": 28.57,
+        "ssim": 0.9998,
+        "blocking": 1.1012,
+        "noise_energy": 2163.54,
+        "median_energy": 125.79,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 8,
+      "orig_filename": "r17228bbdt.png",
+      "real_filename": "FB_IMG_1789380534173.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 100666,
+        "bpp": 1.042901,
+        "progressive": null,
+        "blocking": 1.4697,
+        "noise_energy": 863.41,
+        "median_energy": 65.92,
+        "dct_ac": 30155.7,
+        "dct_hf": 1787.55
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 129770,
+        "file_size_ratio": 1.2891,
+        "bpp": 1.344419,
+        "bpp_ratio": 1.2891,
+        "progressive": false,
+        "psnr": 31.41,
+        "ssim": 0.9996,
+        "blocking": 1.2173,
+        "noise_energy": 1228.36,
+        "median_energy": 87.24,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 126534,
+        "file_size_ratio": 1.257,
+        "bpp": 1.310894,
+        "bpp_ratio": 1.257,
+        "progressive": true,
+        "psnr": 31.41,
+        "ssim": 0.9996,
+        "blocking": 1.2173,
+        "noise_energy": 1228.36,
+        "median_energy": 87.24,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 9,
+      "orig_filename": "r01d0b83bt.png",
+      "real_filename": "FB_IMG_1789380550952.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 116002,
+        "bpp": 1.201782,
+        "progressive": null,
+        "blocking": 1.2885,
+        "noise_energy": 2329.11,
+        "median_energy": 140.5,
+        "dct_ac": 65578.68,
+        "dct_hf": 5870.71
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 154346,
+        "file_size_ratio": 1.3305,
+        "bpp": 1.599026,
+        "bpp_ratio": 1.3305,
+        "progressive": false,
+        "psnr": 29.0,
+        "ssim": 0.9997,
+        "blocking": 1.1124,
+        "noise_energy": 3334.14,
+        "median_energy": 189.35,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 149595,
+        "file_size_ratio": 1.2896,
+        "bpp": 1.549806,
+        "bpp_ratio": 1.2896,
+        "progressive": true,
+        "psnr": 29.0,
+        "ssim": 0.9997,
+        "blocking": 1.1124,
+        "noise_energy": 3334.14,
+        "median_energy": 189.35,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 10,
+      "orig_filename": "r0589558at.png",
+      "real_filename": "FB_IMG_1789380524476.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 71959,
+        "bpp": 0.745496,
+        "progressive": null,
+        "blocking": 1.5698,
+        "noise_energy": 476.23,
+        "median_energy": 30.54,
+        "dct_ac": 18710.68,
+        "dct_hf": 866.95
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 90828,
+        "file_size_ratio": 1.2622,
+        "bpp": 0.940979,
+        "bpp_ratio": 1.2622,
+        "progressive": false,
+        "psnr": 33.68,
+        "ssim": 0.9997,
+        "blocking": 1.3142,
+        "noise_energy": 673.79,
+        "median_energy": 43.12,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 91019,
+        "file_size_ratio": 1.2649,
+        "bpp": 0.942958,
+        "bpp_ratio": 1.2649,
+        "progressive": true,
+        "psnr": 33.68,
+        "ssim": 0.9997,
+        "blocking": 1.3142,
+        "noise_energy": 673.79,
+        "median_energy": 43.12,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 11,
+      "orig_filename": "r0b5b85d0t.png",
+      "real_filename": "FB_IMG_1789380562544.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 75439,
+        "bpp": 0.781549,
+        "progressive": null,
+        "blocking": 1.6651,
+        "noise_energy": 178.22,
+        "median_energy": 8.73,
+        "dct_ac": 15128.43,
+        "dct_hf": 224.71
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 92634,
+        "file_size_ratio": 1.2279,
+        "bpp": 0.959689,
+        "bpp_ratio": 1.2279,
+        "progressive": false,
+        "psnr": 35.11,
+        "ssim": 0.9997,
+        "blocking": 1.4071,
+        "noise_energy": 263.38,
+        "median_energy": 12.36,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 92216,
+        "file_size_ratio": 1.2224,
+        "bpp": 0.955359,
+        "bpp_ratio": 1.2224,
+        "progressive": true,
+        "psnr": 35.11,
+        "ssim": 0.9997,
+        "blocking": 1.4071,
+        "noise_energy": 263.38,
+        "median_energy": 12.36,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 12,
+      "orig_filename": "r0e04cc91t.png",
+      "real_filename": "FB_IMG_1789380557630.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 116617,
+        "bpp": 1.208153,
+        "progressive": null,
+        "blocking": 1.4013,
+        "noise_energy": 1646.52,
+        "median_energy": 107.93,
+        "dct_ac": 25751.09,
+        "dct_hf": 3936.32
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 173474,
+        "file_size_ratio": 1.4876,
+        "bpp": 1.797192,
+        "bpp_ratio": 1.4876,
+        "progressive": false,
+        "psnr": 27.57,
+        "ssim": 0.9995,
+        "blocking": 1.0798,
+        "noise_energy": 3431.49,
+        "median_energy": 198.08,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 166681,
+        "file_size_ratio": 1.4293,
+        "bpp": 1.726817,
+        "bpp_ratio": 1.4293,
+        "progressive": true,
+        "psnr": 27.57,
+        "ssim": 0.9995,
+        "blocking": 1.0798,
+        "noise_energy": 3431.49,
+        "median_energy": 198.08,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 13,
+      "orig_filename": "r0408fe9ft.png",
+      "real_filename": "FB_IMG_1789380569793.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          1631
+        ],
+        "file_size": 163670,
+        "bpp": 0.743329,
+        "progressive": null,
+        "blocking": 1.4682,
+        "noise_energy": 650.69,
+        "median_energy": 39.1,
+        "dct_ac": 17490.84,
+        "dct_hf": 1443.57
+      },
+      "v1": {
+        "dims": [
+          715,
+          1080
+        ],
+        "dims_match": false,
+        "file_size": 104548,
+        "file_size_ratio": 0.6388,
+        "bpp": 1.083118,
+        "bpp_ratio": 1.4571,
+        "progressive": false,
+        "psnr": 30.99,
+        "ssim": 0.9999,
+        "blocking": 1.1768,
+        "noise_energy": 1196.74,
+        "median_energy": 66.89,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          1630
+        ],
+        "dims_match": false,
+        "file_size": 211826,
+        "file_size_ratio": 1.2942,
+        "bpp": 0.962627,
+        "bpp_ratio": 1.295,
+        "progressive": true,
+        "psnr": 32.18,
+        "ssim": 0.9999,
+        "blocking": 1.1936,
+        "noise_energy": 1022.62,
+        "median_energy": 58.63,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 14,
+      "orig_filename": "r06d3ac60t.png",
+      "real_filename": "FB_IMG_1789380519915.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 67270,
+        "bpp": 0.696918,
+        "progressive": null,
+        "blocking": 1.6669,
+        "noise_energy": 113.68,
+        "median_energy": 4.82,
+        "dct_ac": 15273.87,
+        "dct_hf": 81.18
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 79056,
+        "file_size_ratio": 1.1752,
+        "bpp": 0.819021,
+        "bpp_ratio": 1.1752,
+        "progressive": false,
+        "psnr": 36.76,
+        "ssim": 0.9998,
+        "blocking": 1.4573,
+        "noise_energy": 146.08,
+        "median_energy": 6.41,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 79579,
+        "file_size_ratio": 1.183,
+        "bpp": 0.824439,
+        "bpp_ratio": 1.183,
+        "progressive": true,
+        "psnr": 36.76,
+        "ssim": 0.9998,
+        "blocking": 1.4573,
+        "noise_energy": 146.08,
+        "median_energy": 6.41,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 15,
+      "orig_filename": "r09579ff2t.png",
+      "real_filename": "FB_IMG_1789380565060.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 71765,
+        "bpp": 0.743486,
+        "progressive": null,
+        "blocking": 1.5682,
+        "noise_energy": 422.77,
+        "median_energy": 23.82,
+        "dct_ac": 18220.12,
+        "dct_hf": 673.55
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 91602,
+        "file_size_ratio": 1.2764,
+        "bpp": 0.948998,
+        "bpp_ratio": 1.2764,
+        "progressive": false,
+        "psnr": 34.05,
+        "ssim": 0.9999,
+        "blocking": 1.3272,
+        "noise_energy": 580.14,
+        "median_energy": 32.22,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 91625,
+        "file_size_ratio": 1.2767,
+        "bpp": 0.949236,
+        "bpp_ratio": 1.2767,
+        "progressive": true,
+        "psnr": 34.05,
+        "ssim": 0.9999,
+        "blocking": 1.3272,
+        "noise_energy": 580.14,
+        "median_energy": 32.22,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 16,
+      "orig_filename": "r0fbe1b0ft.png",
+      "real_filename": "FB_IMG_1789380531773.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 105965,
+        "bpp": 1.097798,
+        "progressive": null,
+        "blocking": 1.3234,
+        "noise_energy": 1913.57,
+        "median_energy": 130.88,
+        "dct_ac": 32917.1,
+        "dct_hf": 4711.59
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 152401,
+        "file_size_ratio": 1.4382,
+        "bpp": 1.578876,
+        "bpp_ratio": 1.4382,
+        "progressive": false,
+        "psnr": 28.27,
+        "ssim": 0.9998,
+        "blocking": 1.0764,
+        "noise_energy": 3323.56,
+        "median_energy": 202.91,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 144241,
+        "file_size_ratio": 1.3612,
+        "bpp": 1.494338,
+        "bpp_ratio": 1.3612,
+        "progressive": true,
+        "psnr": 28.27,
+        "ssim": 0.9998,
+        "blocking": 1.0764,
+        "noise_energy": 3323.56,
+        "median_energy": 202.91,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 17,
+      "orig_filename": "r14ca1259t.png",
+      "real_filename": "FB_IMG_1789380522195.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          1631
+        ],
+        "file_size": 211393,
+        "bpp": 0.96007,
+        "progressive": null,
+        "blocking": 1.5525,
+        "noise_energy": 609.9,
+        "median_energy": 33.25,
+        "dct_ac": 28169.36,
+        "dct_hf": 1119.56
+      },
+      "v1": {
+        "dims": [
+          715,
+          1080
+        ],
+        "dims_match": false,
+        "file_size": 142776,
+        "file_size_ratio": 0.6754,
+        "bpp": 1.479161,
+        "bpp_ratio": 1.5407,
+        "progressive": false,
+        "psnr": 30.47,
+        "ssim": 0.9995,
+        "blocking": 1.2001,
+        "noise_energy": 1426.58,
+        "median_energy": 80.86,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          1630
+        ],
+        "dims_match": false,
+        "file_size": 271589,
+        "file_size_ratio": 1.2848,
+        "bpp": 1.234215,
+        "bpp_ratio": 1.2855,
+        "progressive": true,
+        "psnr": 31.57,
+        "ssim": 0.9996,
+        "blocking": 1.2663,
+        "noise_energy": 840.07,
+        "median_energy": 45.1,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 18,
+      "orig_filename": "r15028ceft.png",
+      "real_filename": "FB_IMG_1789380567476.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 50457,
+        "bpp": 0.522735,
+        "progressive": null,
+        "blocking": 1.6584,
+        "noise_energy": 275.68,
+        "median_energy": 15.9,
+        "dct_ac": 9987.1,
+        "dct_hf": 589.57
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 65437,
+        "file_size_ratio": 1.2969,
+        "bpp": 0.677928,
+        "bpp_ratio": 1.2969,
+        "progressive": false,
+        "psnr": 35.2,
+        "ssim": 0.9999,
+        "blocking": 1.3636,
+        "noise_energy": 500.55,
+        "median_energy": 27.17,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 64762,
+        "file_size_ratio": 1.2835,
+        "bpp": 0.670935,
+        "bpp_ratio": 1.2835,
+        "progressive": true,
+        "psnr": 35.2,
+        "ssim": 0.9999,
+        "blocking": 1.3636,
+        "noise_energy": 500.55,
+        "median_energy": 27.17,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 19,
+      "orig_filename": "r039a5ef5t.png",
+      "real_filename": "FB_IMG_1789380516953.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 65821,
+        "bpp": 0.681906,
+        "progressive": null,
+        "blocking": 1.3443,
+        "noise_energy": 1163.37,
+        "median_energy": 75.93,
+        "dct_ac": 37747.05,
+        "dct_hf": 2148.64
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 86520,
+        "file_size_ratio": 1.3145,
+        "bpp": 0.896348,
+        "bpp_ratio": 1.3145,
+        "progressive": false,
+        "psnr": 32.75,
+        "ssim": 0.9999,
+        "blocking": 1.1786,
+        "noise_energy": 1442.84,
+        "median_energy": 90.94,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 83467,
+        "file_size_ratio": 1.2681,
+        "bpp": 0.864719,
+        "bpp_ratio": 1.2681,
+        "progressive": true,
+        "psnr": 32.75,
+        "ssim": 0.9999,
+        "blocking": 1.1786,
+        "noise_energy": 1442.84,
+        "median_energy": 90.94,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 20,
+      "orig_filename": "r0fdfc4f0t.png",
+      "real_filename": "FB_IMG_1789380542352.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 78187,
+        "bpp": 0.810018,
+        "progressive": null,
+        "blocking": 1.4177,
+        "noise_energy": 1331.25,
+        "median_energy": 99.59,
+        "dct_ac": 23885.97,
+        "dct_hf": 3433.89
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 110086,
+        "file_size_ratio": 1.408,
+        "bpp": 1.140492,
+        "bpp_ratio": 1.408,
+        "progressive": false,
+        "psnr": 30.05,
+        "ssim": 0.9999,
+        "blocking": 1.1088,
+        "noise_energy": 2232.81,
+        "median_energy": 150.74,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 105698,
+        "file_size_ratio": 1.3519,
+        "bpp": 1.095032,
+        "bpp_ratio": 1.3519,
+        "progressive": true,
+        "psnr": 30.05,
+        "ssim": 0.9999,
+        "blocking": 1.1088,
+        "noise_energy": 2232.81,
+        "median_energy": 150.74,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 21,
+      "orig_filename": "r104153eat.png",
+      "real_filename": "FB_IMG_1789380538087.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 33573,
+        "bpp": 0.347817,
+        "progressive": null,
+        "blocking": 2.0649,
+        "noise_energy": 277.65,
+        "median_energy": 15.48,
+        "dct_ac": 4412.9,
+        "dct_hf": 618.91
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 40247,
+        "file_size_ratio": 1.1988,
+        "bpp": 0.416959,
+        "bpp_ratio": 1.1988,
+        "progressive": false,
+        "psnr": 37.98,
+        "ssim": 0.9999,
+        "blocking": 1.7343,
+        "noise_energy": 388.95,
+        "median_energy": 20.55,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 41508,
+        "file_size_ratio": 1.2364,
+        "bpp": 0.430023,
+        "bpp_ratio": 1.2363,
+        "progressive": true,
+        "psnr": 37.98,
+        "ssim": 0.9999,
+        "blocking": 1.7343,
+        "noise_energy": 388.95,
+        "median_energy": 20.55,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 22,
+      "orig_filename": "r041c02cat.png",
+      "real_filename": "FB_IMG_1789380559679.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 60995,
+        "bpp": 0.631909,
+        "progressive": null,
+        "blocking": 1.571,
+        "noise_energy": 343.26,
+        "median_energy": 20.71,
+        "dct_ac": 13011.81,
+        "dct_hf": 663.11
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 81453,
+        "file_size_ratio": 1.3354,
+        "bpp": 0.843854,
+        "bpp_ratio": 1.3354,
+        "progressive": false,
+        "psnr": 33.5,
+        "ssim": 0.9999,
+        "blocking": 1.2754,
+        "noise_energy": 598.53,
+        "median_energy": 35.58,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 78418,
+        "file_size_ratio": 1.2856,
+        "bpp": 0.812411,
+        "bpp_ratio": 1.2856,
+        "progressive": true,
+        "psnr": 33.5,
+        "ssim": 0.9999,
+        "blocking": 1.2754,
+        "noise_energy": 598.53,
+        "median_energy": 35.58,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 23,
+      "orig_filename": "r0905697bt.png",
+      "real_filename": "FB_IMG_1789380548950.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 30367,
+        "bpp": 0.314602,
+        "progressive": null,
+        "blocking": 2.0147,
+        "noise_energy": 51.23,
+        "median_energy": 3.05,
+        "dct_ac": 4296.25,
+        "dct_hf": 87.66
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 36769,
+        "file_size_ratio": 1.2108,
+        "bpp": 0.380927,
+        "bpp_ratio": 1.2108,
+        "progressive": false,
+        "psnr": 39.86,
+        "ssim": 0.9999,
+        "blocking": 1.6775,
+        "noise_energy": 93.98,
+        "median_energy": 5.51,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 36734,
+        "file_size_ratio": 1.2097,
+        "bpp": 0.380565,
+        "bpp_ratio": 1.2097,
+        "progressive": true,
+        "psnr": 39.86,
+        "ssim": 0.9999,
+        "blocking": 1.6775,
+        "noise_energy": 93.98,
+        "median_energy": 5.51,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 24,
+      "orig_filename": "r11865f77t.png",
+      "real_filename": "FB_IMG_1789380572490.jpg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1080,
+          715
+        ],
+        "file_size": 107320,
+        "bpp": 1.111836,
+        "progressive": null,
+        "blocking": 1.2878,
+        "noise_energy": 1861.85,
+        "median_energy": 140.75,
+        "dct_ac": 42275.49,
+        "dct_hf": 4236.15
+      },
+      "v1": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 150244,
+        "file_size_ratio": 1.4,
+        "bpp": 1.556529,
+        "bpp_ratio": 1.4,
+        "progressive": false,
+        "psnr": 28.81,
+        "ssim": 0.9994,
+        "blocking": 1.0753,
+        "noise_energy": 2839.02,
+        "median_energy": 198.32,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1080,
+          715
+        ],
+        "dims_match": true,
+        "file_size": 142280,
+        "file_size_ratio": 1.3258,
+        "bpp": 1.474022,
+        "bpp_ratio": 1.3258,
+        "progressive": true,
+        "psnr": 28.81,
+        "ssim": 0.9994,
+        "blocking": 1.0753,
+        "noise_energy": 2839.02,
+        "median_energy": 198.32,
+        "qt_diffs": null
+      }
+    }
+  ]
+}

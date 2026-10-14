@@ -1,0 +1,191 @@
+{
+  "whatsapp": {
+    "real_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.1555,
+        "median": 0.2968,
+        "max": 0.5867,
+        "mean": 0.3283
+      },
+      "file_size": {
+        "min": 263423,
+        "median": 502957.5,
+        "max": 994150,
+        "mean": 556227.7
+      }
+    },
+    "v1_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.08,
+        "median": 0.1632,
+        "max": 0.3523,
+        "mean": 0.1882
+      },
+      "file_size": {
+        "min": 135590,
+        "median": 276584.5,
+        "max": 597004,
+        "mean": 318877.6
+      }
+    },
+    "v2_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.1586,
+        "median": 0.305,
+        "max": 0.6081,
+        "mean": 0.3389
+      },
+      "file_size": {
+        "min": 268729,
+        "median": 516834.5,
+        "max": 1030447,
+        "mean": 574223.1
+      }
+    }
+  },
+  "facebook": {
+    "real_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.0453,
+        "median": 0.0923,
+        "max": 0.2259,
+        "mean": 0.1114
+      },
+      "file_size": {
+        "min": 125766,
+        "median": 256337.5,
+        "max": 627403,
+        "mean": 309335.5
+      }
+    },
+    "v1_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.0734,
+        "median": 0.1464,
+        "max": 0.3466,
+        "mean": 0.1792
+      },
+      "file_size": {
+        "min": 56693,
+        "median": 113076.0,
+        "max": 267652,
+        "mean": 138376.7
+      }
+    },
+    "v2_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.0601,
+        "median": 0.1414,
+        "max": 0.3233,
+        "mean": 0.1658
+      },
+      "file_size": {
+        "min": 55476,
+        "median": 129559.5,
+        "max": 554236,
+        "mean": 193130.4
+      }
+    }
+  },
+  "instagram": {
+    "real_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.0315,
+        "median": 0.0855,
+        "max": 0.3051,
+        "mean": 0.123
+      },
+      "file_size": {
+        "min": 65376,
+        "median": 177228.0,
+        "max": 632636,
+        "mean": 255136.8
+      }
+    },
+    "v1_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.0332,
+        "median": 0.1062,
+        "max": 0.3209,
+        "mean": 0.1379
+      },
+      "file_size": {
+        "min": 45560,
+        "median": 145752.0,
+        "max": 440310,
+        "mean": 189214
+      }
+    },
+    "v2_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.0541,
+        "median": 0.1656,
+        "max": 0.4291,
+        "mean": 0.1986
+      },
+      "file_size": {
+        "min": 74288,
+        "median": 227234.0,
+        "max": 588908,
+        "mean": 272591.4
+      }
+    }
+  },
+  "telegram": {
+    "real_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.1151,
+        "median": 0.2123,
+        "max": 0.422,
+        "mean": 0.2406
+      },
+      "file_size": {
+        "min": 124972,
+        "median": 230420.5,
+        "max": 458100,
+        "mean": 261179.6
+      }
+    },
+    "v1_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.1274,
+        "median": 0.2435,
+        "max": 0.5,
+        "mean": 0.277
+      },
+      "file_size": {
+        "min": 138006,
+        "median": 263781.5,
+        "max": 541705,
+        "mean": 300074.3
+      }
+    },
+    "v2_test": {
+      "count": 10,
+      "bpp": {
+        "min": 0.1225,
+        "median": 0.2308,
+        "max": 0.462,
+        "mean": 0.2605
+      },
+      "file_size": {
+        "min": 132758,
+        "median": 250000.0,
+        "max": 500459,
+        "mean": 282191.8
+      }
+    }
+  },
+  "crops_dir": "D:\\ml_project\\simulator_audit\\crops"
+}

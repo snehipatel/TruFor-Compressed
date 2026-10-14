@@ -1,0 +1,13 @@
+{
+  "num_test_pairs": 10,
+  "v1_bpp_ratio_median": 1.5598,
+  "v3_bpp_ratio_median": 1.2491,
+  "real_noise_median": 643.24,
+  "v1_noise_median": 1612.58,
+  "v3_noise_median": 742.77,
+  "real_blocking_median": 1.4846,
+  "v1_blocking_median": 1.1687,
+  "v3_blocking_median": 1.2374,
+  "v3_within_real_distribution": false,
+  "v3_verdict": "NEEDS WORK"
+}

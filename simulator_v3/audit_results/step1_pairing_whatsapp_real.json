@@ -1,0 +1,235 @@
+{
+  "num_originals": 25,
+  "num_posted": 25,
+  "num_pairs": 25,
+  "high_confidence_count": 25,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0,
+  "pairs": [
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0408fe9ft.png",
+      "orig_filename": "r0408fe9ft.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (15).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (15).jpeg",
+      "dhash_distance": 0,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0589558at.png",
+      "orig_filename": "r0589558at.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (23).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (23).jpeg",
+      "dhash_distance": 0,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r06691aa5t.png",
+      "orig_filename": "r06691aa5t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (16).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (16).jpeg",
+      "dhash_distance": 0,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0b5b85d0t.png",
+      "orig_filename": "r0b5b85d0t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM.jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM.jpeg",
+      "dhash_distance": 0,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0e04cc91t.png",
+      "orig_filename": "r0e04cc91t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (2).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (2).jpeg",
+      "dhash_distance": 0,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0fbe1b0ft.png",
+      "orig_filename": "r0fbe1b0ft.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (3).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (3).jpeg",
+      "dhash_distance": 0,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r138ceafbt.png",
+      "orig_filename": "r138ceafbt.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (14).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (14).jpeg",
+      "dhash_distance": 0,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r15eef8b9t.png",
+      "orig_filename": "r15eef8b9t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (11).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (11).jpeg",
+      "dhash_distance": 0,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r1ee65904t.png",
+      "orig_filename": "r1ee65904t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (7).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (7).jpeg",
+      "dhash_distance": 0,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r01d0b83bt.png",
+      "orig_filename": "r01d0b83bt.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (5).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (5).jpeg",
+      "dhash_distance": 1,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0905697bt.png",
+      "orig_filename": "r0905697bt.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (24).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (24).jpeg",
+      "dhash_distance": 1,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r09579ff2t.png",
+      "orig_filename": "r09579ff2t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (17).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (17).jpeg",
+      "dhash_distance": 1,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0bdc7894t.png",
+      "orig_filename": "r0bdc7894t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (1).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (1).jpeg",
+      "dhash_distance": 1,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r13934dc7t.png",
+      "orig_filename": "r13934dc7t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (19).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (19).jpeg",
+      "dhash_distance": 1,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r17228bbdt.png",
+      "orig_filename": "r17228bbdt.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (21).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (21).jpeg",
+      "dhash_distance": 1,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r1a7346d0t.png",
+      "orig_filename": "r1a7346d0t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (6).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (6).jpeg",
+      "dhash_distance": 1,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r039a5ef5t.png",
+      "orig_filename": "r039a5ef5t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (12).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (12).jpeg",
+      "dhash_distance": 2,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r03cef811t.png",
+      "orig_filename": "r03cef811t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (8).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (8).jpeg",
+      "dhash_distance": 2,
+      "ssim": 0.9999,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r041c02cat.png",
+      "orig_filename": "r041c02cat.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (13).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (13).jpeg",
+      "dhash_distance": 2,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r06d3ac60t.png",
+      "orig_filename": "r06d3ac60t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (9).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (9).jpeg",
+      "dhash_distance": 2,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r14ca1259t.png",
+      "orig_filename": "r14ca1259t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (10).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (10).jpeg",
+      "dhash_distance": 2,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r15028ceft.png",
+      "orig_filename": "r15028ceft.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (20).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (20).jpeg",
+      "dhash_distance": 2,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r104153eat.png",
+      "orig_filename": "r104153eat.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (22).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (22).jpeg",
+      "dhash_distance": 4,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r11865f77t.png",
+      "orig_filename": "r11865f77t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (18).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (18).jpeg",
+      "dhash_distance": 5,
+      "ssim": 0.9998,
+      "confidence": "HIGH"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0fdfc4f0t.png",
+      "orig_filename": "r0fdfc4f0t.png",
+      "posted_path": "D:\\ml_project\\DATA\\WHATSAPP\\whatsapp_real\\WhatsApp Image 2026-09-15 at 7.29.47 PM (4).jpeg",
+      "posted_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (4).jpeg",
+      "dhash_distance": 6,
+      "ssim": 1.0,
+      "confidence": "HIGH"
+    }
+  ]
+}

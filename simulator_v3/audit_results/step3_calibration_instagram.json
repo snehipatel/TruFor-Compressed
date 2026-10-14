@@ -1,0 +1,93 @@
+{
+  "best_quality": 60,
+  "median_ratio_at_best_q": 1.0003,
+  "loo_cv": {
+    "loo_best_qs": [
+      60,
+      60,
+      60,
+      61,
+      61,
+      60,
+      60,
+      60,
+      61,
+      60,
+      61,
+      61,
+      61,
+      61,
+      60,
+      61,
+      61,
+      60,
+      60,
+      60,
+      61,
+      60,
+      61,
+      61,
+      61
+    ],
+    "loo_median_q": 61,
+    "loo_q_range": [
+      60,
+      61
+    ],
+    "loo_is_stable": true,
+    "loo_mean_heldout_abs_error": 0.0575
+  },
+  "quality_scan": {
+    "60": {
+      "median_ratio": 1.0003,
+      "median_dev": 0.0003,
+      "std": 0.0686
+    },
+    "61": {
+      "median_ratio": 1.0028,
+      "median_dev": 0.0028,
+      "std": 0.0675
+    },
+    "62": {
+      "median_ratio": 1.0205,
+      "median_dev": 0.0205,
+      "std": 0.0678
+    },
+    "65": {
+      "median_ratio": 1.0617,
+      "median_dev": 0.0617,
+      "std": 0.0705
+    },
+    "70": {
+      "median_ratio": 1.1359,
+      "median_dev": 0.1359,
+      "std": 0.0793
+    },
+    "75": {
+      "median_ratio": 1.2436,
+      "median_dev": 0.2436,
+      "std": 0.0974
+    },
+    "80": {
+      "median_ratio": 1.5099,
+      "median_dev": 0.5099,
+      "std": 0.1816
+    },
+    "85": {
+      "median_ratio": 1.9024,
+      "median_dev": 0.9024,
+      "std": 0.4108
+    },
+    "90": {
+      "median_ratio": 2.5432,
+      "median_dev": 1.5432,
+      "std": 0.9657
+    },
+    "95": {
+      "median_ratio": 3.873,
+      "median_dev": 2.873,
+      "std": 2.0131
+    }
+  },
+  "verdict_v3": "ACCURATE"
+}

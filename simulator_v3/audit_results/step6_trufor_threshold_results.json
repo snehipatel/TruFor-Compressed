@@ -1,0 +1,106 @@
+{
+  "whatsapp": {
+    "platform": "whatsapp",
+    "sample_size": {
+      "n_real": 25,
+      "n_fake": 10,
+      "n_total": 35
+    },
+    "calibrated_threshold": 0.379,
+    "auc": 0.932,
+    "auc_95_ci": [
+      0.7727,
+      1.0
+    ],
+    "balanced_acc_tau_0_5": 0.95,
+    "balanced_acc_tau_0_5_95_ci": [
+      0.8333,
+      1.0
+    ],
+    "balanced_acc_calibrated": 0.95,
+    "balanced_acc_calibrated_95_ci": [
+      0.8333,
+      1.0
+    ],
+    "real_scores_mean": 0.1707,
+    "fake_scores_mean": 0.7747
+  },
+  "facebook": {
+    "platform": "facebook",
+    "sample_size": {
+      "n_real": 25,
+      "n_fake": 10,
+      "n_total": 35
+    },
+    "calibrated_threshold": 0.379,
+    "auc": 0.912,
+    "auc_95_ci": [
+      0.7841,
+      0.9949
+    ],
+    "balanced_acc_tau_0_5": 0.73,
+    "balanced_acc_tau_0_5_95_ci": [
+      0.56,
+      0.8883
+    ],
+    "balanced_acc_calibrated": 0.81,
+    "balanced_acc_calibrated_95_ci": [
+      0.6395,
+      0.9583
+    ],
+    "real_scores_mean": 0.2084,
+    "fake_scores_mean": 0.5952
+  },
+  "telegram": {
+    "platform": "telegram",
+    "sample_size": {
+      "n_real": 25,
+      "n_fake": 10,
+      "n_total": 35
+    },
+    "calibrated_threshold": 0.365,
+    "auc": 0.924,
+    "auc_95_ci": [
+      0.76,
+      1.0
+    ],
+    "balanced_acc_tau_0_5": 0.8,
+    "balanced_acc_tau_0_5_95_ci": [
+      0.6364,
+      0.95
+    ],
+    "balanced_acc_calibrated": 0.9,
+    "balanced_acc_calibrated_95_ci": [
+      0.75,
+      1.0
+    ],
+    "real_scores_mean": 0.1512,
+    "fake_scores_mean": 0.6591
+  },
+  "instagram": {
+    "platform": "instagram",
+    "sample_size": {
+      "n_real": 25,
+      "n_fake": 10,
+      "n_total": 35
+    },
+    "calibrated_threshold": 0.448,
+    "auc": 0.828,
+    "auc_95_ci": [
+      0.6782,
+      0.9444
+    ],
+    "balanced_acc_tau_0_5": 0.6,
+    "balanced_acc_tau_0_5_95_ci": [
+      0.5,
+      0.7308
+    ],
+    "balanced_acc_calibrated": 0.6,
+    "balanced_acc_calibrated_95_ci": [
+      0.5,
+      0.7308
+    ],
+    "real_scores_mean": 0.1546,
+    "fake_scores_mean": 0.3956
+  }
+}

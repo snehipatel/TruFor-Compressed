@@ -1,0 +1,1425 @@
+{
+  "platform": "whatsapp",
+  "summary": {
+    "num_pairs": 25,
+    "exact_dim_match_rate_v1": 1.0,
+    "exact_dim_match_rate_v2": 1.0,
+    "median_bpp_ratio_v1": 0.5561,
+    "median_bpp_ratio_v2": 1.0224,
+    "mean_bpp_ratio_v1": 0.5416,
+    "mean_bpp_ratio_v2": 1.0157,
+    "median_fs_ratio_v1": 0.5561,
+    "median_fs_ratio_v2": 1.0224,
+    "median_psnr_v1": 35.65,
+    "median_psnr_v2": 38.42,
+    "median_ssim_v1": 0.9999,
+    "median_ssim_v2": 1.0,
+    "median_noise_real": 700.54,
+    "median_noise_v1": 813.28,
+    "median_noise_v2": 857.75,
+    "v1_verdict": "TOO HARSH",
+    "v2_verdict": "ACCURATE"
+  },
+  "per_image": [
+    {
+      "pair_idx": 0,
+      "orig_filename": "r0408fe9ft.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (15).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "file_size": 465424,
+        "bpp": 2.197469,
+        "progressive": null,
+        "blocking": 1.0344,
+        "noise_energy": 863.81,
+        "median_energy": 47.38,
+        "dct_ac": 17865.25,
+        "dct_hf": 2341.65
+      },
+      "v1": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "dims_match": true,
+        "file_size": 258822,
+        "file_size_ratio": 0.5561,
+        "bpp": 1.222011,
+        "bpp_ratio": 0.5561,
+        "progressive": true,
+        "psnr": 34.42,
+        "ssim": 1.0,
+        "blocking": 1.174,
+        "noise_energy": 933.65,
+        "median_energy": 54.96,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "dims_match": true,
+        "file_size": 479112,
+        "file_size_ratio": 1.0294,
+        "bpp": 2.262096,
+        "bpp_ratio": 1.0294,
+        "progressive": false,
+        "psnr": 37.67,
+        "ssim": 1.0,
+        "blocking": 1.0296,
+        "noise_energy": 1058.67,
+        "median_energy": 57.89,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 1,
+      "orig_filename": "r0589558at.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (23).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 442568,
+        "bpp": 2.089556,
+        "progressive": null,
+        "blocking": 1.084,
+        "noise_energy": 412.6,
+        "median_energy": 25.98,
+        "dct_ac": 14768.21,
+        "dct_hf": 1062.7
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 238227,
+        "file_size_ratio": 0.5383,
+        "bpp": 1.124773,
+        "bpp_ratio": 0.5383,
+        "progressive": true,
+        "psnr": 37.07,
+        "ssim": 0.9999,
+        "blocking": 1.2515,
+        "noise_energy": 455.21,
+        "median_energy": 29.74,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 452362,
+        "file_size_ratio": 1.0221,
+        "bpp": 2.135798,
+        "bpp_ratio": 1.0221,
+        "progressive": false,
+        "psnr": 40.07,
+        "ssim": 0.9999,
+        "blocking": 1.0781,
+        "noise_energy": 498.24,
+        "median_energy": 31.22,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 2,
+      "orig_filename": "r06691aa5t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (16).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 283920,
+        "bpp": 1.34051,
+        "progressive": null,
+        "blocking": 1.2466,
+        "noise_energy": 209.04,
+        "median_energy": 7.21,
+        "dct_ac": 10663.76,
+        "dct_hf": 569.12
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 116910,
+        "file_size_ratio": 0.4118,
+        "bpp": 0.551983,
+        "bpp_ratio": 0.4118,
+        "progressive": true,
+        "psnr": 40.06,
+        "ssim": 1.0,
+        "blocking": 1.471,
+        "noise_energy": 209.87,
+        "median_energy": 7.3,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 270682,
+        "file_size_ratio": 0.9534,
+        "bpp": 1.278008,
+        "bpp_ratio": 0.9534,
+        "progressive": false,
+        "psnr": 42.34,
+        "ssim": 1.0,
+        "blocking": 1.2596,
+        "noise_energy": 238.11,
+        "median_energy": 8.03,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 3,
+      "orig_filename": "r0b5b85d0t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM.jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 384828,
+        "bpp": 1.816941,
+        "progressive": null,
+        "blocking": 1.1441,
+        "noise_energy": 102.63,
+        "median_energy": 4.24,
+        "dct_ac": 10427.13,
+        "dct_hf": 235.66
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 217825,
+        "file_size_ratio": 0.566,
+        "bpp": 1.028447,
+        "bpp_ratio": 0.566,
+        "progressive": true,
+        "psnr": 39.86,
+        "ssim": 0.9999,
+        "blocking": 1.346,
+        "noise_energy": 111.92,
+        "median_energy": 4.88,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 391799,
+        "file_size_ratio": 1.0181,
+        "bpp": 1.849854,
+        "bpp_ratio": 1.0181,
+        "progressive": false,
+        "psnr": 43.13,
+        "ssim": 1.0,
+        "blocking": 1.1395,
+        "noise_energy": 128.36,
+        "median_energy": 5.12,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 4,
+      "orig_filename": "r0e04cc91t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (2).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 750362,
+        "bpp": 3.542786,
+        "progressive": null,
+        "blocking": 1.004,
+        "noise_energy": 2569.38,
+        "median_energy": 153.55,
+        "dct_ac": 27960.98,
+        "dct_hf": 6558.66
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 424779,
+        "file_size_ratio": 0.5661,
+        "bpp": 2.005567,
+        "bpp_ratio": 0.5661,
+        "progressive": true,
+        "psnr": 30.8,
+        "ssim": 0.9999,
+        "blocking": 1.1041,
+        "noise_energy": 2931.46,
+        "median_energy": 184.46,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 776561,
+        "file_size_ratio": 1.0349,
+        "bpp": 3.666483,
+        "bpp_ratio": 1.0349,
+        "progressive": false,
+        "psnr": 34.14,
+        "ssim": 0.9999,
+        "blocking": 1.0043,
+        "noise_energy": 3200.51,
+        "median_energy": 188.53,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 5,
+      "orig_filename": "r0fbe1b0ft.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (3).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 591664,
+        "bpp": 2.793503,
+        "progressive": null,
+        "blocking": 1.0146,
+        "noise_energy": 2394.61,
+        "median_energy": 150.27,
+        "dct_ac": 35088.64,
+        "dct_hf": 5983.84
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 351075,
+        "file_size_ratio": 0.5934,
+        "bpp": 1.657578,
+        "bpp_ratio": 0.5934,
+        "progressive": true,
+        "psnr": 31.55,
+        "ssim": 0.9999,
+        "blocking": 1.092,
+        "noise_energy": 2794.57,
+        "median_energy": 183.96,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 612235,
+        "file_size_ratio": 1.0348,
+        "bpp": 2.890628,
+        "bpp_ratio": 1.0348,
+        "progressive": false,
+        "psnr": 34.57,
+        "ssim": 0.9999,
+        "blocking": 1.0138,
+        "noise_energy": 2932.87,
+        "median_energy": 183.86,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 6,
+      "orig_filename": "r138ceafbt.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (14).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "file_size": 792809,
+        "bpp": 3.743196,
+        "progressive": null,
+        "blocking": 1.0063,
+        "noise_energy": 1699.83,
+        "median_energy": 95.31,
+        "dct_ac": 43782.32,
+        "dct_hf": 4315.65
+      },
+      "v1": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "dims_match": true,
+        "file_size": 485929,
+        "file_size_ratio": 0.6129,
+        "bpp": 2.294282,
+        "bpp_ratio": 0.6129,
+        "progressive": true,
+        "psnr": 31.93,
+        "ssim": 0.9999,
+        "blocking": 1.0947,
+        "noise_energy": 2002.01,
+        "median_energy": 119.25,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "dims_match": true,
+        "file_size": 825681,
+        "file_size_ratio": 1.0415,
+        "bpp": 3.898399,
+        "bpp_ratio": 1.0415,
+        "progressive": false,
+        "psnr": 35.39,
+        "ssim": 1.0,
+        "blocking": 1.0031,
+        "noise_energy": 2187.3,
+        "median_energy": 121.49,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 7,
+      "orig_filename": "r15eef8b9t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (11).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "file_size": 549831,
+        "bpp": 2.595992,
+        "progressive": null,
+        "blocking": 1.0698,
+        "noise_energy": 373.28,
+        "median_energy": 18.99,
+        "dct_ac": 19792.41,
+        "dct_hf": 758.99
+      },
+      "v1": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "dims_match": true,
+        "file_size": 295905,
+        "file_size_ratio": 0.5382,
+        "bpp": 1.397096,
+        "bpp_ratio": 0.5382,
+        "progressive": true,
+        "psnr": 36.0,
+        "ssim": 1.0,
+        "blocking": 1.249,
+        "noise_energy": 290.98,
+        "median_energy": 15.84,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "dims_match": true,
+        "file_size": 548701,
+        "file_size_ratio": 0.9979,
+        "bpp": 2.590656,
+        "bpp_ratio": 0.9979,
+        "progressive": false,
+        "psnr": 38.38,
+        "ssim": 1.0,
+        "blocking": 1.0777,
+        "noise_energy": 383.95,
+        "median_energy": 19.48,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 8,
+      "orig_filename": "r1ee65904t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (7).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 788551,
+        "bpp": 3.723093,
+        "progressive": null,
+        "blocking": 1.0064,
+        "noise_energy": 3092.63,
+        "median_energy": 206.79,
+        "dct_ac": 45338.22,
+        "dct_hf": 7877.13
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 465338,
+        "file_size_ratio": 0.5901,
+        "bpp": 2.197063,
+        "bpp_ratio": 0.5901,
+        "progressive": true,
+        "psnr": 30.57,
+        "ssim": 0.9999,
+        "blocking": 1.0906,
+        "noise_energy": 3700.53,
+        "median_energy": 250.28,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 815813,
+        "file_size_ratio": 1.0346,
+        "bpp": 3.851808,
+        "bpp_ratio": 1.0346,
+        "progressive": false,
+        "psnr": 33.63,
+        "ssim": 0.9999,
+        "blocking": 1.0071,
+        "noise_energy": 3882.65,
+        "median_energy": 251.59,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 9,
+      "orig_filename": "r01d0b83bt.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (5).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 597656,
+        "bpp": 2.821794,
+        "progressive": null,
+        "blocking": 1.0329,
+        "noise_energy": 2004.7,
+        "median_energy": 111.14,
+        "dct_ac": 56412.93,
+        "dct_hf": 4673.35
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 346529,
+        "file_size_ratio": 0.5798,
+        "bpp": 1.636114,
+        "bpp_ratio": 0.5798,
+        "progressive": true,
+        "psnr": 33.02,
+        "ssim": 0.9999,
+        "blocking": 1.1229,
+        "noise_energy": 2259.64,
+        "median_energy": 132.35,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 611046,
+        "file_size_ratio": 1.0224,
+        "bpp": 2.885014,
+        "bpp_ratio": 1.0224,
+        "progressive": false,
+        "psnr": 35.64,
+        "ssim": 1.0,
+        "blocking": 1.0315,
+        "noise_energy": 2387.36,
+        "median_energy": 133.77,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 10,
+      "orig_filename": "r0905697bt.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (24).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 240641,
+        "bpp": 1.136171,
+        "progressive": null,
+        "blocking": 1.155,
+        "noise_energy": 125.07,
+        "median_energy": 7.88,
+        "dct_ac": 3308.31,
+        "dct_hf": 286.05
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 105424,
+        "file_size_ratio": 0.4381,
+        "bpp": 0.497753,
+        "bpp_ratio": 0.4381,
+        "progressive": true,
+        "psnr": 39.92,
+        "ssim": 1.0,
+        "blocking": 1.5016,
+        "noise_energy": 90.83,
+        "median_energy": 6.12,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 241080,
+        "file_size_ratio": 1.0018,
+        "bpp": 1.138244,
+        "bpp_ratio": 1.0018,
+        "progressive": false,
+        "psnr": 42.66,
+        "ssim": 1.0,
+        "blocking": 1.1593,
+        "noise_energy": 137.62,
+        "median_energy": 8.45,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 11,
+      "orig_filename": "r09579ff2t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (17).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 471518,
+        "bpp": 2.226242,
+        "progressive": null,
+        "blocking": 1.0471,
+        "noise_energy": 538.07,
+        "median_energy": 27.96,
+        "dct_ac": 18702.61,
+        "dct_hf": 1332.43
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 241563,
+        "file_size_ratio": 0.5123,
+        "bpp": 1.140524,
+        "bpp_ratio": 0.5123,
+        "progressive": true,
+        "psnr": 35.65,
+        "ssim": 1.0,
+        "blocking": 1.2824,
+        "noise_energy": 404.4,
+        "median_energy": 22.82,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 468699,
+        "file_size_ratio": 0.994,
+        "bpp": 2.212932,
+        "bpp_ratio": 0.994,
+        "progressive": false,
+        "psnr": 37.8,
+        "ssim": 1.0,
+        "blocking": 1.0595,
+        "noise_energy": 540.74,
+        "median_energy": 28.55,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 12,
+      "orig_filename": "r0bdc7894t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (1).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "file_size": 194078,
+        "bpp": 0.916327,
+        "progressive": null,
+        "blocking": 1.3325,
+        "noise_energy": 42.51,
+        "median_energy": 1.51,
+        "dct_ac": 3809.07,
+        "dct_hf": 97.64
+      },
+      "v1": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "dims_match": true,
+        "file_size": 88525,
+        "file_size_ratio": 0.4561,
+        "bpp": 0.417965,
+        "bpp_ratio": 0.4561,
+        "progressive": true,
+        "psnr": 43.41,
+        "ssim": 0.9999,
+        "blocking": 1.5628,
+        "noise_energy": 49.02,
+        "median_energy": 1.87,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "dims_match": true,
+        "file_size": 188625,
+        "file_size_ratio": 0.9719,
+        "bpp": 0.890581,
+        "bpp_ratio": 0.9719,
+        "progressive": false,
+        "psnr": 46.42,
+        "ssim": 1.0,
+        "blocking": 1.3088,
+        "noise_energy": 53.48,
+        "median_energy": 1.86,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 13,
+      "orig_filename": "r13934dc7t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (19).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 430587,
+        "bpp": 2.032989,
+        "progressive": null,
+        "blocking": 1.026,
+        "noise_energy": 920.31,
+        "median_energy": 59.27,
+        "dct_ac": 16076.86,
+        "dct_hf": 2322.27
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 234281,
+        "file_size_ratio": 0.5441,
+        "bpp": 1.106143,
+        "bpp_ratio": 0.5441,
+        "progressive": true,
+        "psnr": 34.54,
+        "ssim": 1.0,
+        "blocking": 1.1748,
+        "noise_energy": 1005.94,
+        "median_energy": 67.81,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 446517,
+        "file_size_ratio": 1.037,
+        "bpp": 2.108201,
+        "bpp_ratio": 1.037,
+        "progressive": false,
+        "psnr": 37.7,
+        "ssim": 1.0,
+        "blocking": 1.0216,
+        "noise_energy": 1134.96,
+        "median_energy": 71.93,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 14,
+      "orig_filename": "r17228bbdt.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (21).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 517617,
+        "bpp": 2.443895,
+        "progressive": null,
+        "blocking": 1.0474,
+        "noise_energy": 766.14,
+        "median_energy": 53.2,
+        "dct_ac": 24586.1,
+        "dct_hf": 1928.66
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 303281,
+        "file_size_ratio": 0.5859,
+        "bpp": 1.431922,
+        "bpp_ratio": 0.5859,
+        "progressive": true,
+        "psnr": 35.51,
+        "ssim": 0.9999,
+        "blocking": 1.1732,
+        "noise_energy": 873.2,
+        "median_energy": 62.33,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 531336,
+        "file_size_ratio": 1.0265,
+        "bpp": 2.508669,
+        "bpp_ratio": 1.0265,
+        "progressive": false,
+        "psnr": 38.42,
+        "ssim": 0.9999,
+        "blocking": 1.0437,
+        "noise_energy": 921.05,
+        "median_energy": 63.05,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 15,
+      "orig_filename": "r1a7346d0t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (6).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 704752,
+        "bpp": 3.327441,
+        "progressive": null,
+        "blocking": 1.006,
+        "noise_energy": 1815.81,
+        "median_energy": 109.73,
+        "dct_ac": 30812.86,
+        "dct_hf": 4657.78
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 405241,
+        "file_size_ratio": 0.575,
+        "bpp": 1.913319,
+        "bpp_ratio": 0.575,
+        "progressive": true,
+        "psnr": 31.67,
+        "ssim": 0.9999,
+        "blocking": 1.1153,
+        "noise_energy": 1986.15,
+        "median_energy": 129.18,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 730012,
+        "file_size_ratio": 1.0358,
+        "bpp": 3.446704,
+        "bpp_ratio": 1.0358,
+        "progressive": false,
+        "psnr": 35.04,
+        "ssim": 1.0,
+        "blocking": 1.0049,
+        "noise_energy": 2240.24,
+        "median_energy": 134.63,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 16,
+      "orig_filename": "r039a5ef5t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (12).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 324298,
+        "bpp": 1.531152,
+        "progressive": null,
+        "blocking": 1.0686,
+        "noise_energy": 721.73,
+        "median_energy": 36.42,
+        "dct_ac": 32693.42,
+        "dct_hf": 1679.0
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 192207,
+        "file_size_ratio": 0.5927,
+        "bpp": 0.907493,
+        "bpp_ratio": 0.5927,
+        "progressive": true,
+        "psnr": 37.64,
+        "ssim": 1.0,
+        "blocking": 1.1703,
+        "noise_energy": 848.18,
+        "median_energy": 46.05,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 333442,
+        "file_size_ratio": 1.0282,
+        "bpp": 1.574325,
+        "bpp_ratio": 1.0282,
+        "progressive": false,
+        "psnr": 40.35,
+        "ssim": 1.0,
+        "blocking": 1.0602,
+        "noise_energy": 870.36,
+        "median_energy": 45.78,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 17,
+      "orig_filename": "r03cef811t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (8).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 356573,
+        "bpp": 1.683536,
+        "progressive": null,
+        "blocking": 1.1334,
+        "noise_energy": 163.66,
+        "median_energy": 6.91,
+        "dct_ac": 9990.54,
+        "dct_hf": 419.38
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 194019,
+        "file_size_ratio": 0.5441,
+        "bpp": 0.916048,
+        "bpp_ratio": 0.5441,
+        "progressive": true,
+        "psnr": 39.36,
+        "ssim": 0.9999,
+        "blocking": 1.3315,
+        "noise_energy": 175.65,
+        "median_energy": 8.17,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 358306,
+        "file_size_ratio": 1.0049,
+        "bpp": 1.691719,
+        "bpp_ratio": 1.0049,
+        "progressive": false,
+        "psnr": 42.52,
+        "ssim": 0.9999,
+        "blocking": 1.1288,
+        "noise_energy": 195.9,
+        "median_energy": 8.38,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 18,
+      "orig_filename": "r041c02cat.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (13).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 360736,
+        "bpp": 1.703192,
+        "progressive": null,
+        "blocking": 1.0782,
+        "noise_energy": 319.24,
+        "median_energy": 18.38,
+        "dct_ac": 10266.29,
+        "dct_hf": 786.53
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 196024,
+        "file_size_ratio": 0.5434,
+        "bpp": 0.925515,
+        "bpp_ratio": 0.5434,
+        "progressive": true,
+        "psnr": 37.45,
+        "ssim": 1.0,
+        "blocking": 1.2438,
+        "noise_energy": 359.39,
+        "median_energy": 22.06,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 371827,
+        "file_size_ratio": 1.0307,
+        "bpp": 1.755557,
+        "bpp_ratio": 1.0307,
+        "progressive": false,
+        "psnr": 41.07,
+        "ssim": 1.0,
+        "blocking": 1.067,
+        "noise_energy": 410.85,
+        "median_energy": 23.5,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 19,
+      "orig_filename": "r06d3ac60t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (9).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 357028,
+        "bpp": 1.685685,
+        "progressive": null,
+        "blocking": 1.1617,
+        "noise_energy": 71.16,
+        "median_energy": 3.27,
+        "dct_ac": 10258.94,
+        "dct_hf": 139.26
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 194660,
+        "file_size_ratio": 0.5452,
+        "bpp": 0.919075,
+        "bpp_ratio": 0.5452,
+        "progressive": true,
+        "psnr": 40.49,
+        "ssim": 1.0,
+        "blocking": 1.3828,
+        "noise_energy": 64.04,
+        "median_energy": 2.81,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 359578,
+        "file_size_ratio": 1.0071,
+        "bpp": 1.697724,
+        "bpp_ratio": 1.0071,
+        "progressive": false,
+        "psnr": 43.49,
+        "ssim": 1.0,
+        "blocking": 1.1623,
+        "noise_energy": 77.15,
+        "median_energy": 3.45,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 20,
+      "orig_filename": "r14ca1259t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (10).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "file_size": 579172,
+        "bpp": 2.734523,
+        "progressive": null,
+        "blocking": 1.0646,
+        "noise_energy": 700.54,
+        "median_energy": 35.12,
+        "dct_ac": 27273.28,
+        "dct_hf": 1783.62
+      },
+      "v1": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "dims_match": true,
+        "file_size": 339082,
+        "file_size_ratio": 0.5855,
+        "bpp": 1.600954,
+        "bpp_ratio": 0.5855,
+        "progressive": true,
+        "psnr": 35.41,
+        "ssim": 0.9999,
+        "blocking": 1.1978,
+        "noise_energy": 813.28,
+        "median_energy": 44.04,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1059,
+          1600
+        ],
+        "dims_match": true,
+        "file_size": 594020,
+        "file_size_ratio": 1.0256,
+        "bpp": 2.804627,
+        "bpp_ratio": 1.0256,
+        "progressive": false,
+        "psnr": 38.62,
+        "ssim": 0.9999,
+        "blocking": 1.0592,
+        "noise_energy": 857.75,
+        "median_energy": 44.02,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 21,
+      "orig_filename": "r15028ceft.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (20).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 323097,
+        "bpp": 1.525482,
+        "progressive": null,
+        "blocking": 1.1474,
+        "noise_energy": 297.47,
+        "median_energy": 16.79,
+        "dct_ac": 8726.56,
+        "dct_hf": 818.28
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 161604,
+        "file_size_ratio": 0.5002,
+        "bpp": 0.763003,
+        "bpp_ratio": 0.5002,
+        "progressive": true,
+        "psnr": 38.76,
+        "ssim": 1.0,
+        "blocking": 1.3588,
+        "noise_energy": 324.27,
+        "median_energy": 18.94,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 329643,
+        "file_size_ratio": 1.0203,
+        "bpp": 1.556388,
+        "bpp_ratio": 1.0203,
+        "progressive": false,
+        "psnr": 41.94,
+        "ssim": 1.0,
+        "blocking": 1.1398,
+        "noise_energy": 368.55,
+        "median_energy": 20.54,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 22,
+      "orig_filename": "r104153eat.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (22).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 242744,
+        "bpp": 1.1461,
+        "progressive": null,
+        "blocking": 1.2706,
+        "noise_energy": 248.74,
+        "median_energy": 13.48,
+        "dct_ac": 3250.84,
+        "dct_hf": 533.85
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 107021,
+        "file_size_ratio": 0.4409,
+        "bpp": 0.505293,
+        "bpp_ratio": 0.4409,
+        "progressive": true,
+        "psnr": 40.28,
+        "ssim": 1.0,
+        "blocking": 1.5446,
+        "noise_energy": 296.52,
+        "median_energy": 16.14,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 237219,
+        "file_size_ratio": 0.9772,
+        "bpp": 1.120014,
+        "bpp_ratio": 0.9772,
+        "progressive": false,
+        "psnr": 43.04,
+        "ssim": 1.0,
+        "blocking": 1.2428,
+        "noise_energy": 315.18,
+        "median_energy": 16.78,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 23,
+      "orig_filename": "r11865f77t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (18).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 600303,
+        "bpp": 2.834292,
+        "progressive": null,
+        "blocking": 1.0225,
+        "noise_energy": 1872.13,
+        "median_energy": 130.0,
+        "dct_ac": 38066.48,
+        "dct_hf": 4432.71
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 338863,
+        "file_size_ratio": 0.5645,
+        "bpp": 1.59992,
+        "bpp_ratio": 0.5645,
+        "progressive": true,
+        "psnr": 32.34,
+        "ssim": 0.9998,
+        "blocking": 1.091,
+        "noise_energy": 2151.47,
+        "median_energy": 155.4,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 614210,
+        "file_size_ratio": 1.0232,
+        "bpp": 2.899953,
+        "bpp_ratio": 1.0232,
+        "progressive": false,
+        "psnr": 35.18,
+        "ssim": 0.9998,
+        "blocking": 1.0165,
+        "noise_energy": 2274.15,
+        "median_energy": 157.36,
+        "qt_diffs": null
+      }
+    },
+    {
+      "pair_idx": 24,
+      "orig_filename": "r0fdfc4f0t.png",
+      "real_filename": "WhatsApp Image 2026-09-15 at 7.29.47 PM (4).jpeg",
+      "confidence": "HIGH",
+      "real": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "file_size": 488241,
+        "bpp": 2.305198,
+        "progressive": null,
+        "blocking": 1.0149,
+        "noise_energy": 2122.12,
+        "median_energy": 154.32,
+        "dct_ac": 25419.27,
+        "dct_hf": 5494.19
+      },
+      "v1": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 273017,
+        "file_size_ratio": 0.5592,
+        "bpp": 1.289032,
+        "bpp_ratio": 0.5592,
+        "progressive": true,
+        "psnr": 32.1,
+        "ssim": 0.9999,
+        "blocking": 1.123,
+        "noise_energy": 2298.37,
+        "median_energy": 167.71,
+        "qt_diffs": null
+      },
+      "v2": {
+        "dims": [
+          1600,
+          1059
+        ],
+        "dims_match": true,
+        "file_size": 497682,
+        "file_size_ratio": 1.0193,
+        "bpp": 2.349773,
+        "bpp_ratio": 1.0193,
+        "progressive": false,
+        "psnr": 34.61,
+        "ssim": 0.9999,
+        "blocking": 1.0117,
+        "noise_energy": 2430.06,
+        "median_energy": 169.74,
+        "qt_diffs": null
+      }
+    }
+  ]
+}

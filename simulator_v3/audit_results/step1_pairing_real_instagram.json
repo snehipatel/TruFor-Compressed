@@ -1,0 +1,189 @@
+{
+  "platform": "instagram",
+  "orig_type": "real",
+  "num_originals": 25,
+  "num_posted": 25,
+  "num_pairs": 25,
+  "pairs": [
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0905697bt.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_f3e73c581fd84a9da9f987da95fe6ed0.jpg",
+      "dhash_distance": 77,
+      "ssim": 0.9088,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r13934dc7t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_bc6ca52bd96d48af87652819e8921339.jpg",
+      "dhash_distance": 85,
+      "ssim": 0.8664,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r15eef8b9t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_ef731a9b5ea341f19399e95049f3c600.jpg",
+      "dhash_distance": 88,
+      "ssim": 0.2789,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r138ceafbt.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_0037831d05494cc0a6aef4f79b8e2493.jpg",
+      "dhash_distance": 89,
+      "ssim": 0.5837,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r14ca1259t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_21871849c8cc45cdbf9abb5e60e0f287.jpg",
+      "dhash_distance": 89,
+      "ssim": 0.407,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r1a7346d0t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_c005d3dc155d4e2a8dbd5c19bb562a7b.jpg",
+      "dhash_distance": 90,
+      "ssim": -0.1412,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0408fe9ft.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_08e9db9ddd0f49f1b02f75300578bde3.jpg",
+      "dhash_distance": 94,
+      "ssim": 0.7414,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r041c02cat.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_5c8bd4c83571455ba1d5d5b0f2fd35a1.jpg",
+      "dhash_distance": 94,
+      "ssim": 0.8128,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0fbe1b0ft.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_a528e5fc99cd4f21bbfca2a8331fc6f4.jpg",
+      "dhash_distance": 94,
+      "ssim": 0.6744,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0fdfc4f0t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_337b8afe37b64088982f1f0e5e02841c.jpg",
+      "dhash_distance": 94,
+      "ssim": 0.7784,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r09579ff2t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_3b680fcecca34dafb0f0bc5225654698.jpg",
+      "dhash_distance": 95,
+      "ssim": 0.6556,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r11865f77t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_1c9fbf703a6b4bcfa7934518af22c869.jpg",
+      "dhash_distance": 99,
+      "ssim": 0.3978,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r039a5ef5t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_68126bcfdfd84fd399b288affa7a043d.jpg",
+      "dhash_distance": 102,
+      "ssim": 0.5774,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r06d3ac60t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_8d26c9f0348f4ac281387135cf030238.jpg",
+      "dhash_distance": 104,
+      "ssim": 0.5504,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0bdc7894t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_4a4d8faddca94b428d70c13833cf88e5.jpg",
+      "dhash_distance": 104,
+      "ssim": 0.3875,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0589558at.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_1802b082f5874acdb82ab98dcaf028c3.jpg",
+      "dhash_distance": 105,
+      "ssim": 0.1886,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0b5b85d0t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_7175b0d340684d6cac00b136d85b6a59.jpg",
+      "dhash_distance": 105,
+      "ssim": -0.0203,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r01d0b83bt.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_9f418b1999134dab92c9406edcd75003.jpg",
+      "dhash_distance": 107,
+      "ssim": 0.0334,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r15028ceft.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_cff3b27815464f0797f022e41224cb97.jpg",
+      "dhash_distance": 111,
+      "ssim": 0.152,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r0e04cc91t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_06b724e051e74aac88ef379631e00ea2.jpg",
+      "dhash_distance": 112,
+      "ssim": 0.2509,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r03cef811t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_6e9e820b9fb844ddbcbbce6a0e7f0b85.jpg",
+      "dhash_distance": 113,
+      "ssim": 0.2798,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r06691aa5t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_d45740ac89634fabb2781b656802bb33.jpg",
+      "dhash_distance": 114,
+      "ssim": 0.0743,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r17228bbdt.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_585e8f9bbe454a4599344e9b64ff6303.jpg",
+      "dhash_distance": 114,
+      "ssim": 0.1002,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r1ee65904t.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_3475ef99b5cb4c7c8ccd968b23d69201.jpg",
+      "dhash_distance": 127,
+      "ssim": 0.1096,
+      "confidence": "LOW"
+    },
+    {
+      "orig_path": "D:\\ml_project\\DATA\\REAL\\r104153eat.png",
+      "posted_path": "D:\\ml_project\\DATA\\INSTAGRAM\\Instagram_Real\\vanjarajuhi10_9e4a6bf761cd4320b0488fc8d12efafd.jpg",
+      "dhash_distance": 132,
+      "ssim": -0.1295,
+      "confidence": "LOW"
+    }
+  ],
+  "unmatched_originals": [],
+  "unmatched_posted": [],
+  "high_confidence_count": 0,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 25
+}

@@ -1,0 +1,31 @@
+{
+  "filters_evaluated": {
+    "BILINEAR": {
+      "median_size_ratio": 1.1435,
+      "mean_size_ratio": 1.142,
+      "median_noise_energy": 487.51,
+      "within_tolerance": true
+    },
+    "BICUBIC": {
+      "median_size_ratio": 1.2297,
+      "mean_size_ratio": 1.2349,
+      "median_noise_energy": 700.16,
+      "within_tolerance": false
+    },
+    "LANCZOS": {
+      "median_size_ratio": 1.2835,
+      "mean_size_ratio": 1.281,
+      "median_noise_energy": 841.94,
+      "within_tolerance": false
+    },
+    "BOX": {
+      "median_size_ratio": 1.2424,
+      "mean_size_ratio": 1.2454,
+      "median_noise_energy": 733.82,
+      "within_tolerance": false
+    }
+  },
+  "chosen_filter": "BILINEAR",
+  "qtable_clipping_note": "Pillow clips Q-table 1 position 63 (value 267) to 255 because standard 8-bit DQT max is 255. Impact on file size is <0.1%.",
+  "verdict_v3": "ACCURATE"
+}

@@ -1,0 +1,13 @@
+{
+  "num_test_pairs": 10,
+  "v1_bpp_ratio_median": 1.1149,
+  "v3_bpp_ratio_median": 1.0523,
+  "real_noise_median": 603.37,
+  "v1_noise_median": 1238.32,
+  "v3_noise_median": 1240.6,
+  "real_blocking_median": 1.1052,
+  "v1_blocking_median": 1.0788,
+  "v3_blocking_median": 1.0799,
+  "v3_within_real_distribution": true,
+  "v3_verdict": "ACCURATE"
+}

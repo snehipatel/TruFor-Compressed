@@ -1,0 +1,54 @@
+{
+  "whatsapp": {
+    "num_test_pairs": 10,
+    "v1_bpp_ratio_median": 0.5547,
+    "v3_bpp_ratio_median": 1.0342,
+    "real_noise_median": 961.17,
+    "v1_noise_median": 1127.4,
+    "v3_noise_median": 1184.09,
+    "real_blocking_median": 1.0366,
+    "v1_blocking_median": 1.1685,
+    "v3_blocking_median": 1.0315,
+    "v3_within_real_distribution": true,
+    "v3_verdict": "ACCURATE"
+  },
+  "facebook": {
+    "num_test_pairs": 10,
+    "v1_bpp_ratio_median": 1.5598,
+    "v3_bpp_ratio_median": 1.2491,
+    "real_noise_median": 643.24,
+    "v1_noise_median": 1612.58,
+    "v3_noise_median": 742.77,
+    "real_blocking_median": 1.4846,
+    "v1_blocking_median": 1.1687,
+    "v3_blocking_median": 1.2374,
+    "v3_within_real_distribution": false,
+    "v3_verdict": "NEEDS WORK"
+  },
+  "telegram": {
+    "num_test_pairs": 10,
+    "v1_bpp_ratio_median": 1.1463,
+    "v3_bpp_ratio_median": 1.0864,
+    "real_noise_median": 934.55,
+    "v1_noise_median": 1440.68,
+    "v3_noise_median": 1440.68,
+    "real_blocking_median": 1.094,
+    "v1_blocking_median": 1.0733,
+    "v3_blocking_median": 1.0733,
+    "v3_within_real_distribution": true,
+    "v3_verdict": "ACCURATE"
+  },
+  "instagram": {
+    "num_test_pairs": 10,
+    "v1_bpp_ratio_median": 1.1149,
+    "v3_bpp_ratio_median": 1.0523,
+    "real_noise_median": 603.37,
+    "v1_noise_median": 1238.32,
+    "v3_noise_median": 1240.6,
+    "real_blocking_median": 1.1052,
+    "v1_blocking_median": 1.0788,
+    "v3_blocking_median": 1.0799,
+    "v3_within_real_distribution": true,
+    "v3_verdict": "ACCURATE"
+  }
+}

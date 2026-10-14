@@ -1,0 +1,452 @@
+[
+  {
+    "id": "CASIA2_Au_Au_ani_10125.jpg",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani10125",
+    "image_path": "stage1_data/CASIA2.0/Au/Au_ani_10125.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "beyond_the_brush_images_1100214449_medium_4_inpainted-0.png",
+    "dataset": "Generative_Inpainting",
+    "group_id": "INPAINT_beyond_the_brush_images_009",
+    "image_path": "../sample_images_ml/beyond_the_brush_images/1100214449_medium_4_inpainted-0.png",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "generative_inpainting"
+  },
+  {
+    "id": "CASIA2_Tp_Tp_S_NNN_S_N_ani00092_ani00092_00811.tif",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani00092",
+    "image_path": "stage1_data/CASIA2.0/Tp/Tp_S_NNN_S_N_ani00092_ani00092_00811.tif",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "splicing/copymove"
+  },
+  {
+    "id": "RAISE_paired_r018ba134t.png",
+    "dataset": "RAISE_Inpainting_Pair",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_039",
+    "image_path": "../sample_images_ml/RAISE_training/r018ba134t.png",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1a5h1p_1a5h1p_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a5h1p",
+    "image_path": "IMD2020/1a5h1p/1a5h1p_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1aa6sn_1aa6sn_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1aa6sn",
+    "image_path": "IMD2020/1aa6sn/1aa6sn_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1aeur2_1aeur2_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1aeur2",
+    "image_path": "IMD2020/1aeur2/1aeur2_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "RAISE_paired_r0191aaf4t.png",
+    "dataset": "RAISE_Inpainting_Pair",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_041",
+    "image_path": "../sample_images_ml/RAISE_training/r0191aaf4t.png",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1a4dqp_c8u4gpd_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a4dqp",
+    "image_path": "IMD2020/1a4dqp/c8u4gpd_0.jpg",
+    "mask_path": "IMD2020/1a4dqp/c8u4gpd_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "beyond_the_brush_diverse_images_3737539561_medium_0_inpainted-0.png",
+    "dataset": "Generative_Inpainting",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_038",
+    "image_path": "../sample_images_ml/beyond_the_brush_diverse_images/3737539561_medium_0_inpainted-0.png",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "generative_inpainting"
+  },
+  {
+    "id": "IMD_1a8jd2_c8v2pbm_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a8jd2",
+    "image_path": "IMD2020/1a8jd2/c8v2pbm_0.jpg",
+    "mask_path": "IMD2020/1a8jd2/c8v2pbm_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "RAISE_paired_r0150031ft.png",
+    "dataset": "RAISE_Inpainting_Pair",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_033",
+    "image_path": "../sample_images_ml/RAISE_training/r0150031ft.png",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1a4zdz_c8u86mv_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a4zdz",
+    "image_path": "IMD2020/1a4zdz/c8u86mv_0.jpg",
+    "mask_path": "IMD2020/1a4zdz/c8u86mv_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "CASIA2_Tp_Tp_S_NNN_S_N_ani00004_ani00004_00124.tif",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani00004",
+    "image_path": "stage1_data/CASIA2.0/Tp/Tp_S_NNN_S_N_ani00004_ani00004_00124.tif",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "splicing/copymove"
+  },
+  {
+    "id": "beyond_the_brush_diverse_images_4018622493_large_3_inpainted-0.png",
+    "dataset": "Generative_Inpainting",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_039",
+    "image_path": "../sample_images_ml/beyond_the_brush_diverse_images/4018622493_large_3_inpainted-0.png",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "generative_inpainting"
+  },
+  {
+    "id": "CASIA2_Au_Au_ani_10133.jpg",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani10133",
+    "image_path": "stage1_data/CASIA2.0/Au/Au_ani_10133.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "DSO1_real_normal-02.png",
+    "dataset": "DSO-1",
+    "group_id": "DSO1_001",
+    "image_path": "../sample_images_ml/DSO-1_real/normal-02.png",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "CASIA2_Tp_Tp_S_CNN_S_N_ani00080_ani00080_00820.tif",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani00080",
+    "image_path": "stage1_data/CASIA2.0/Tp/Tp_S_CNN_S_N_ani00080_ani00080_00820.tif",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "splicing/copymove"
+  },
+  {
+    "id": "CASIA2_Au_Au_ani_00092.jpg",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani00092",
+    "image_path": "stage1_data/CASIA2.0/Au/Au_ani_00092.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1aeur2_c8wry2k_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1aeur2",
+    "image_path": "IMD2020/1aeur2/c8wry2k_0.jpg",
+    "mask_path": "IMD2020/1aeur2/c8wry2k_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "IMD_1a8jd2_1a8jd2_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a8jd2",
+    "image_path": "IMD2020/1a8jd2/1a8jd2_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "beyond_the_brush_diverse_images_3017203816_small_0_inpainted-0.png",
+    "dataset": "Generative_Inpainting",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_033",
+    "image_path": "../sample_images_ml/beyond_the_brush_diverse_images/3017203816_small_0_inpainted-0.png",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "generative_inpainting"
+  },
+  {
+    "id": "IMD_1a4dqp_1a4dqp_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a4dqp",
+    "image_path": "IMD2020/1a4dqp/1a4dqp_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1af7t4_1af7t4_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1af7t4",
+    "image_path": "IMD2020/1af7t4/1af7t4_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "beyond_the_brush_diverse_images_3528105511_small_0_inpainted-0.png",
+    "dataset": "Generative_Inpainting",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_036",
+    "image_path": "../sample_images_ml/beyond_the_brush_diverse_images/3528105511_small_0_inpainted-0.png",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "generative_inpainting"
+  },
+  {
+    "id": "IMD_1a5h1p_c8ua0at_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a5h1p",
+    "image_path": "IMD2020/1a5h1p/c8ua0at_0.jpg",
+    "mask_path": "IMD2020/1a5h1p/c8ua0at_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "IMD_1a6upj_c8umnyd_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a6upj",
+    "image_path": "IMD2020/1a6upj/c8umnyd_0.jpg",
+    "mask_path": "IMD2020/1a6upj/c8umnyd_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "DSO1_real_normal-12.png",
+    "dataset": "DSO-1",
+    "group_id": "DSO1_012",
+    "image_path": "../sample_images_ml/DSO-1_real/normal-12.png",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1a16mu_1a16mu_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a16mu",
+    "image_path": "IMD2020/1a16mu/1a16mu_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "RAISE_paired_r015b453ft.png",
+    "dataset": "RAISE_Inpainting_Pair",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_036",
+    "image_path": "../sample_images_ml/RAISE_training/r015b453ft.png",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "RAISE_paired_r007f5116t.png",
+    "dataset": "RAISE_Inpainting_Pair",
+    "group_id": "INPAINT_beyond_the_brush_images_009",
+    "image_path": "../sample_images_ml/RAISE_training/r007f5116t.png",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1a4zdz_1a4zdz_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a4zdz",
+    "image_path": "IMD2020/1a4zdz/1a4zdz_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1a16mu_c8t64te_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a16mu",
+    "image_path": "IMD2020/1a16mu/c8t64te_0.jpg",
+    "mask_path": "IMD2020/1a16mu/c8t64te_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "RAISE_paired_r017904f0t.png",
+    "dataset": "RAISE_Inpainting_Pair",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_038",
+    "image_path": "../sample_images_ml/RAISE_training/r017904f0t.png",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1a6upj_1a6upj_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1a6upj",
+    "image_path": "IMD2020/1a6upj/1a6upj_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "beyond_the_brush_diverse_images_4637951374_medium_3_inpainted-0.png",
+    "dataset": "Generative_Inpainting",
+    "group_id": "INPAINT_beyond_the_brush_diverse_images_041",
+    "image_path": "../sample_images_ml/beyond_the_brush_diverse_images/4637951374_medium_3_inpainted-0.png",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "generative_inpainting"
+  },
+  {
+    "id": "CASIA2_Tp_Tp_S_NNN_M_N_ani10125_ani10125_12396.jpg",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani10125",
+    "image_path": "stage1_data/CASIA2.0/Tp/Tp_S_NNN_M_N_ani10125_ani10125_12396.jpg",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "splicing/copymove"
+  },
+  {
+    "id": "CASIA2_Tp_Tp_S_NNN_S_B_ani00025_ani00025_00145.tif",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani00025",
+    "image_path": "stage1_data/CASIA2.0/Tp/Tp_S_NNN_S_B_ani00025_ani00025_00145.tif",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "splicing/copymove"
+  },
+  {
+    "id": "CASIA2_Au_Au_ani_00004.jpg",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani00004",
+    "image_path": "stage1_data/CASIA2.0/Au/Au_ani_00004.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "DSO1_fake_splicing-12.png",
+    "dataset": "DSO-1",
+    "group_id": "DSO1_012",
+    "image_path": "../sample_images_ml/DSO-1_fake/splicing-12.png",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "splicing"
+  },
+  {
+    "id": "IMD_1afvdd_c8x1pe8_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1afvdd",
+    "image_path": "IMD2020/1afvdd/c8x1pe8_0.jpg",
+    "mask_path": "IMD2020/1afvdd/c8x1pe8_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "CASIA2_Au_Au_ani_00080.jpg",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani00080",
+    "image_path": "stage1_data/CASIA2.0/Au/Au_ani_00080.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1afvdd_1afvdd_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1afvdd",
+    "image_path": "IMD2020/1afvdd/1afvdd_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1aafqb_c8vkb96_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1aafqb",
+    "image_path": "IMD2020/1aafqb/c8vkb96_0.jpg",
+    "mask_path": "IMD2020/1aafqb/c8vkb96_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "CASIA2_Au_Au_ani_00025.jpg",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani00025",
+    "image_path": "stage1_data/CASIA2.0/Au/Au_ani_00025.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "IMD_1aafqb_1aafqb_orig.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1aafqb",
+    "image_path": "IMD2020/1aafqb/1aafqb_orig.jpg",
+    "mask_path": null,
+    "label": 0,
+    "manipulation": "pristine"
+  },
+  {
+    "id": "CASIA2_Tp_Tp_S_NRN_S_N_ani10133_ani10133_12478.jpg",
+    "dataset": "CASIA2.0",
+    "group_id": "CASIA2_comp_ani10133",
+    "image_path": "stage1_data/CASIA2.0/Tp/Tp_S_NRN_S_N_ani10133_ani10133_12478.jpg",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "splicing/copymove"
+  },
+  {
+    "id": "IMD_1aa6sn_c8vgphr_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1aa6sn",
+    "image_path": "IMD2020/1aa6sn/c8vgphr_0.jpg",
+    "mask_path": "IMD2020/1aa6sn/c8vgphr_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "IMD_1af7t4_c8wvegs_0.jpg",
+    "dataset": "IMD2020",
+    "group_id": "IMD_1af7t4",
+    "image_path": "IMD2020/1af7t4/c8wvegs_0.jpg",
+    "mask_path": "IMD2020/1af7t4/c8wvegs_0_mask.png",
+    "label": 1,
+    "manipulation": "splicing/photoshop"
+  },
+  {
+    "id": "DSO1_fake_splicing-02.png",
+    "dataset": "DSO-1",
+    "group_id": "DSO1_001",
+    "image_path": "../sample_images_ml/DSO-1_fake/splicing-02.png",
+    "mask_path": null,
+    "label": 1,
+    "manipulation": "splicing"
+  }
+]
